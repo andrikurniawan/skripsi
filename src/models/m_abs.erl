@@ -10,42 +10,33 @@
 -include_lib("zotonic.hrl").
 
 -define(API_URL, "http://localhost:8888/total").
+-define(RULES, "/home/andri/skripsi/zotonic/rules.txt").
 
 -spec m_find_value(Key, Source, Context) -> #m{} | undefined | any() when
     Key:: integer() | atom() | string(),
     Source:: #m{},
     Context:: #context{}.
 
-m_find_value(api_url, _, _Context) ->
-    ?API_URL;
-
 m_find_value(Type, #m{value=undefined} = M, _Context) ->
     M#m{value=[Type]};
 
 m_find_value({query, Query}, #m{value=Q} = _, _Context) when is_list(Q) ->
 	[Key] = Q,
-	JsonQuery = jiffy:encode({Query}),
-	{ResultPost} = fetch_data(JsonQuery),
-    proplists:get_value(atom_to_binary(Key, latin1), ResultPost);
+	Url = lookup_rules(Key),
+	io:format("~s~n", [Url]);
+	% JsonQuery = jiffy:encode({Query}),
+	% {DecodeJson} = fetch_data(JsonQuery),
+	% proplists:get_value(atom_to_binary(Key, latin1), DecodeJson);
 
 % Other values won't be processed
 m_find_value(_, _, _Context) ->
     undefined. 
 
-% Enggak perlu, tapi merupakan behavior dari gen_model
--spec m_to_list(Source, Context) -> list() when
-    Source:: #m{},
-    Context:: #context{}.
-m_to_list(#m{value=undefined} = _M, _Context) ->
-    [];
-m_to_list(#m{value=Query} = _M, _Context) ->
-    fetch_data(Query).
+m_to_list(_, _Context) ->
+	[].
 
--spec m_value(Source, Context) -> undefined | any() when
-    Source:: #m{},
-    Context:: #context{}.
 m_value(_, _Context) ->
-    undefined.
+	undefined.
 
 -spec fetch_data(Query) -> list() when
     Query:: list().
@@ -64,6 +55,28 @@ post_page_body(Url, Body) ->
 	case httpc:request(post, {Url, [], "application/json", Body}, [], []) of
 		{ok,{_, _, Response}} ->
 			Response;
+		Error ->
+			{error, Error}
+	end.
+
+lookup_rules(Key) ->
+	File = ?RULES,
+	case read_file(File) of
+		{error, Error} ->
+			[{error, Error}];
+		[] ->
+			[{error, "File empty"}];
+		Json ->
+			{DecodeJson} = jiffy:decode(Json),
+			proplists:get_value(atom_to_binary(Key, latin1), DecodeJson)
+	end.
+
+read_file(File) ->
+	case file:read_file(File) of
+		{ok, Data} ->
+			Data;
+		eof ->
+			[];
 		Error ->
 			{error, Error}
 	end.
