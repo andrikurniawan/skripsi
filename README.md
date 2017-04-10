@@ -3,7 +3,6 @@
 [![Join the chat at https://gitter.im/zotonic/zotonic](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zotonic/zotonic?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Zotonic
-=======
 
 **Zotonic is the open source, high speed, real-time web framework  and content management system, built with Erlang.**
 
