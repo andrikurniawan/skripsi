@@ -1,0 +1,3 @@
+{% extends "admin_edit_widget_std.tpl" %}
+
+{% block widget_title %}

@@ -1,0 +1,6 @@
+127.0.0.1 - - [10/Apr/2017:19:10:41 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 1021430838
+127.0.0.1 - - [10/Apr/2017:19:12:10 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 616977623
+127.0.0.1 - - [10/Apr/2017:19:32:12 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 666966152
+127.0.0.1 - - [10/Apr/2017:19:38:59 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 51143737
+127.0.0.1 - - [10/Apr/2017:19:39:58 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 753479461
+127.0.0.1 - - [10/Apr/2017:19:48:58 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 500 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 969753242
