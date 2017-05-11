@@ -1,0 +1,2 @@
+127.0.0.1 - - [17/Apr/2017:09:38:30 +0700] "GET /en/page/340/test-donasi1 HTTP/1.1" 200 4399 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 389328058
+127.0.0.1 - - [17/Apr/2017:09:38:31 +0700] "GET /websocket HTTP/1.1" 101 0 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0" 586558788

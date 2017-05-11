@@ -1,1 +1,3 @@
-{"total":"http://localhost:8888/total"}
+{
+	"total": ["http://localhost:8888/total",2]
+}
