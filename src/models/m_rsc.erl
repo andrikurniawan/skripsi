@@ -349,11 +349,13 @@ get_acl_props(Name, Context) ->
 %% @doc Insert a new resource
 %% @spec insert(Props, Context) -> {ok, Id} | {error, Reason}
 insert(Props, Context) ->
+    lager:info("[insert] trace insert ~p", [Props]),
     m_rsc_update:insert(Props, Context).
 
 %% @doc Delete a resource
 -spec delete(resource(), #context{}) -> ok | {error, term()}.
 delete(Id, Context) ->
+    lager:info("[delete] trace delete ~p", [Id]),
     m_rsc_update:delete(Id, Context).
 
 %% @doc Merge a resource with another, delete the loser.
@@ -364,10 +366,22 @@ merge_delete(WinnerId, LoserId, Context) ->
 %% @doc Update a resource
 -spec update(resource(), list(), #context{}) -> {ok, resource()} | {error, term()}.
 update(Id, Props, Context) ->
+    case is_a(Id, program, Context) of
+        true ->
+            lager:info("[update1] trace insert program ~p", [Props]);
+        false ->
+            case is_a(Id, donation, Context) of
+                true ->
+                    lager:info("[update1] trace insert donation ~p", [Props, o(Id,316,Context)]);
+                false->
+                    lager:info("[update1] trace insert other ~p", [Props])
+            end
+    end,
     m_rsc_update:update(Id, Props, Context).
 
 -spec update(resource(), list(), list(), #context{}) -> {ok, resource()} | {error, term()}.
 update(Id, Props, Options, Context) ->
+    lager:info("[update2] trace insert ~p", [Props, Id]),
     m_rsc_update:update(Id, Props, Options, Context).
 
 

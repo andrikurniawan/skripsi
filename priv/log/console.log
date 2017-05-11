@@ -300,3 +300,1192 @@
 2017-05-08 12:50:57.029 [info] <0.246.0>@zotonic_sup:init:182 Web server listening on IPv4 any:8000, IPv6 ::8000, SSL :8443
 2017-05-08 12:50:57.029 [info] <0.246.0>@zotonic_sup:init:185 
 2017-05-08 12:50:57.047 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-11 23:24:01.074 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.080 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.080 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-11 23:24:01.187 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-11 23:24:01.187 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.189 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.190 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.195 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.306 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.347 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.347 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.390 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.400 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.401 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.433 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.505 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.505 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.506 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.513 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.524 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.531 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-11 23:24:01.531 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-11 23:24:01.532 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.536 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.539 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.541 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.541 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.541 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.561 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.562 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.658 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-11 23:24:01.676 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-11 23:24:01.677 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-11 23:24:01.679 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-11 23:24:01.680 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-11 23:24:01.681 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-11 23:24:01.685 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-11 23:24:01.685 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-11 23:24:01.736 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-11 23:24:01.737 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-11 23:24:01.777 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-11 23:24:01.781 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-11 23:24:01.809 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-11 23:24:02.136 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-11 23:24:05.728 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-11 23:24:05.729 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-11 23:24:05.732 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-11 23:27:00.576 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.583 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.583 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-11 23:27:00.675 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-11 23:27:00.675 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.676 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.678 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.683 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.709 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.719 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.719 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.733 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.735 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.736 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.740 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.810 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.811 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.811 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.818 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.828 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-11 23:27:00.926 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-11 23:27:00.934 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-11 23:27:00.935 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-11 23:27:00.936 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-11 23:27:00.938 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-11 23:27:00.939 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-11 23:27:00.942 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-11 23:27:01.000 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-11 23:27:01.019 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-11 23:27:01.022 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-11 23:27:01.038 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-11 23:27:01.203 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-11 23:27:04.974 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-11 23:27:04.977 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-11 23:28:59.177 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.183 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.183 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-11 23:28:59.287 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-11 23:28:59.287 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.288 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.290 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.295 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.321 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.331 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.331 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.340 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.343 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.343 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.346 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.415 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.415 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.416 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.422 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.433 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-11 23:28:59.529 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-11 23:28:59.537 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-11 23:28:59.538 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-11 23:28:59.540 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-11 23:28:59.541 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-11 23:28:59.543 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-11 23:28:59.546 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-11 23:28:59.626 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-11 23:28:59.630 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-11 23:28:59.643 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-11 23:29:03.579 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-11 23:29:03.581 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-11 23:29:17.277 [info] <0.727.0>@m_rsc:delete:358 [delete] trace delete 343
+2017-05-11 23:33:26.742 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.749 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.749 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-11 23:33:26.840 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-11 23:33:26.840 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.841 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.843 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.848 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.873 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.884 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.884 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.893 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.896 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.896 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.899 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.968 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.968 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.969 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.976 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-11 23:33:26.986 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.001 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-11 23:33:27.001 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.001 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.002 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.007 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.008 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.083 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-11 23:33:27.091 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-11 23:33:27.093 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-11 23:33:27.094 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-11 23:33:27.095 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-11 23:33:27.096 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-11 23:33:27.099 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-11 23:33:27.099 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-11 23:33:27.137 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-11 23:33:27.138 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-11 23:33:27.175 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-11 23:33:27.179 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-11 23:33:27.191 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-11 23:33:31.130 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-11 23:33:31.137 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-11 23:34:01.527 [info] <0.373.0>@m_rsc:update:369 FORMAT ERROR: "[update1] trace insert ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:24"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],342]
+2017-05-11 23:34:15.446 [info] <0.373.0>@m_rsc:update:369 FORMAT ERROR: "[update1] trace insert ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:24"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],342]
+2017-05-11 23:34:48.118 [info] <0.942.0>@m_rsc:delete:358 [delete] trace delete 342
+2017-05-11 23:35:38.329 [info] <0.361.0>@m_rsc:update:369 FORMAT ERROR: "[update1] trace insert ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Test Donasi1"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","1000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-03-30"},{"dt:hi:0:publication_start","17:49"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],340]
+2017-05-11 23:36:27.340 [info] <0.1738.0>@m_rsc:update:369 FORMAT ERROR: "[update1] trace insert ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],345]
+2017-05-12 00:02:43.226 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.232 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.232 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:02:43.329 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:02:43.330 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.331 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.333 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.339 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.364 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.374 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.374 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.383 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.385 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.386 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.389 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.457 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.457 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.458 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.464 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.475 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:02:43.571 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:02:43.579 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:02:43.580 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:02:43.581 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:02:43.583 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:02:43.584 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:02:43.587 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:02:43.666 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:02:43.669 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:02:43.682 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:02:47.619 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:02:47.622 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:03:37.507 [info] <0.346.0>@m_rsc:update:375 [update1] trace insert donation [{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}]
+2017-05-12 00:05:07.442 [info] <0.346.0>@m_rsc:update:375 [update1] trace insert donation [{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}]
+2017-05-12 00:08:55.512 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.519 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.519 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:08:55.601 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:08:55.601 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.603 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.604 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.609 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.636 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.646 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.646 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.656 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.658 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.658 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.661 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.730 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.730 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.731 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.737 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.748 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:08:55.842 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:08:55.850 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:08:55.851 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:08:55.853 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:08:55.854 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:08:55.855 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:08:55.858 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:08:55.932 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:08:55.936 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:08:55.948 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:08:56.041 [warning] <0.6.0> lager_error_logger_h dropped 3 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 00:08:56.113 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 00:08:59.889 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:08:59.889 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:08:59.889 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:08:59.889 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:08:59.890 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:08:59.890 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:08:59.890 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:08:59.890 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:08:59.890 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:08:59.892 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:09:05.474 [info] <0.369.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],{context,volunteer,{wm_reqdata,#Port<0.33161>,{dict,0,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,[],undefined,[],undefined,undefined,{0,nil},undefined,undefined,undefined,undefined,undefined,false,undefined,undefined,[]},controller_admin_edit,<0.672.0>,<<"va7kfd6HB5AUKzhkN8vvl8NNOgKajgs5">>,<0.691.0>,<<"Vkjiqv2oKCNh18ZrboQJ">>,desktop,'z_depcache$volunteer','z_notifier$volunteer','z_session_manager$volunteer','z_dispatcher$volunteer','z_template$volunteer','z_scomp$volunteer','z_dropbox$volunteer','z_pivot_rsc$volunteer','z_module_indexer$volunteer',151655,undefined,{'z_db_pool$volunteer',z_db_pgsql},[en],<<"Asia/Jakarta">>,admin,1,[],[],[],[],[],[],[],[{q,[{"triggervalue",[]},{"z_v","email:eZnHGap-nllnplIirl26WIq9JTGDaANrAAVlbWFpbGsABWVtYWlsbAAAAAFoA2QABWVtYWlsZAAUdmFsaWRhdG9yX2Jhc2VfZW1haWxqag"},{"z_v","name:Z04PJKFnFaQttzIfimrAQYw7kNWDaANrAARuYW1lawAEbmFtZWwAAAABaANkAAtuYW1lX3VuaXF1ZWQAGnZhbGlkYXRvcl9iYXNlX25hbWVfdW5pcXVlbAAAAAJoAmQAAmlkYgAAAVloAmQAD2ZhaWx1cmVfbWVzc2FnZW0AAAAkVGhpcyBuYW1lIGlzIGluIHVzZSBieSBhbm90aGVyIHBhZ2Uuamo"},{"id","345"},{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short...",...},...]},...]}]
+2017-05-12 00:11:04.884 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:11:04.891 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:11:04.891 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:11:04.983 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:11:04.984 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:11:04.985 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:11:04.987 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:11:04.992 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.018 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.029 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.029 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.039 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.041 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.041 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.044 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.114 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.115 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.116 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.122 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.133 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.140 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 00:11:05.140 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 00:11:05.141 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.145 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.148 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.150 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.150 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.150 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.156 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.157 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.232 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:11:05.241 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:11:05.242 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:11:05.243 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:11:05.244 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:11:05.246 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:11:05.248 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:11:05.249 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 00:11:05.288 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 00:11:05.290 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 00:11:05.327 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:11:05.330 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:11:05.341 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:11:09.281 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:11:09.281 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:11:09.281 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:11:09.282 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:11:09.284 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:11:24.320 [info] <0.371.0>@m_rsc:update:375 [update1] trace insert donation [{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}]
+2017-05-12 00:32:44.662 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.668 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.668 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:32:44.763 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:32:44.763 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.765 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.766 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.771 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.798 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.808 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.808 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.818 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.820 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.820 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.823 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.891 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.891 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.892 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.898 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:32:44.909 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:32:45.006 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:32:45.014 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:32:45.014 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 00:32:45.015 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:32:45.017 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:32:45.018 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:32:45.019 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:32:45.022 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:32:45.022 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 00:32:45.061 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 00:32:45.062 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 00:32:45.099 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:32:45.102 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:32:45.113 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:32:45.284 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:32:49.053 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:32:49.056 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:33:09.233 [info] <0.339.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],undefined]
+2017-05-12 00:47:17.318 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.325 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.325 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:47:17.416 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:47:17.416 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.418 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.419 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.425 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.451 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.462 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.462 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.472 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.474 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.474 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.477 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.547 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.547 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.548 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.555 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.566 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:47:17.663 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:47:17.671 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:47:17.673 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:47:17.674 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:47:17.675 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:47:17.677 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:47:17.680 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:47:17.759 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:47:17.762 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:47:17.774 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:47:18.108 [warning] <0.6.0> lager_error_logger_h dropped 4 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 00:47:21.715 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:47:21.716 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:47:21.719 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:47:32.719 [error] <0.333.0>@controller_admin_edit:event:151 Rsc update error: error:{badmatch,undefined} stacktrace: [{m_edge,get_triple,2,[{file,"src/models/m_edge.erl"},{line,137}]},{m_rsc,update,3,[{file,"src/models/m_rsc.erl"},{line,375}]},{controller_admin_edit,event,2,[{file,"modules/mod_admin/controllers/controller_admin_edit.erl"},{line,101}]},{z_transport,incoming_with_session,2,[{file,"src/support/z_transport.erl"},{line,250}]},{z_transport,incoming_msgs,2,[{file,"src/support/z_transport.erl"},{line,193}]},{z_transport,incoming,2,[{file,"src/support/z_transport.erl"},{line,161}]},{controller_websocket,websocket_message,3,[{file,"modules/mod_base/controllers/controller_websocket.erl"},{line,108}]},{z_websocket,websocket_handle,3,[{file,"modules/mod_base/support/z_websocket.erl"},{line,54}]}]
+2017-05-12 00:57:40.988 [error] <0.333.0>@controller_admin_edit:event:151 Rsc update error: error:{badmatch,undefined} stacktrace: [{m_edge,get_triple,2,[{file,"src/models/m_edge.erl"},{line,137}]},{m_rsc,update,3,[{file,"src/models/m_rsc.erl"},{line,375}]},{controller_admin_edit,event,2,[{file,"modules/mod_admin/controllers/controller_admin_edit.erl"},{line,101}]},{z_transport,incoming_with_session,2,[{file,"src/support/z_transport.erl"},{line,250}]},{z_transport,incoming_msgs,2,[{file,"src/support/z_transport.erl"},{line,193}]},{z_transport,incoming,2,[{file,"src/support/z_transport.erl"},{line,161}]},{controller_websocket,websocket_message,3,[{file,"modules/mod_base/controllers/controller_websocket.erl"},{line,108}]},{z_websocket,websocket_handle,3,[{file,"modules/mod_base/support/z_websocket.erl"},{line,54}]}]
+2017-05-12 00:58:23.468 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.474 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.475 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 00:58:23.563 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 00:58:23.563 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.565 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.566 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.572 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.599 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.610 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.610 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.620 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.622 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.622 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.625 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.695 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.696 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.696 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.703 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.714 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 00:58:23.812 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 00:58:23.820 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 00:58:23.821 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 00:58:23.822 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 00:58:23.824 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 00:58:23.825 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 00:58:23.828 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 00:58:23.910 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 00:58:23.913 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 00:58:23.926 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 00:58:24.017 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 00:58:24.091 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 00:58:27.863 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 00:58:27.866 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 00:58:40.711 [info] <0.375.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],undefined]
+2017-05-12 01:01:15.825 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.832 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.832 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:01:15.915 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:01:15.915 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.916 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.918 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.923 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.950 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.960 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.960 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.970 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.972 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.972 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:01:15.976 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.046 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.046 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.047 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.054 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.065 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.071 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 01:01:16.071 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 01:01:16.072 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.077 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.079 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.081 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.081 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.081 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.088 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.089 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.166 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:01:16.174 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:01:16.175 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:01:16.177 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:01:16.179 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:01:16.180 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:01:16.183 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:01:16.183 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:01:16.222 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:01:16.223 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:01:16.261 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:01:16.264 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:01:16.276 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:01:20.214 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:01:20.214 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:01:20.214 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:01:20.214 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:01:20.215 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:01:20.215 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:01:20.215 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:01:20.215 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:01:20.215 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:01:20.217 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:01:34.333 [info] <0.321.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[{forprogram,[[{id,13},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,344},{seq,1000000},{created,{{2017,5,11},{17,5,4}}},{creator_id,1}]]}]]
+2017-05-12 01:24:47.379 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.385 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.386 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:24:47.473 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:24:47.473 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.474 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.476 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.480 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.506 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.516 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.516 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.525 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.527 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.528 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.531 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.600 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.600 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.601 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.607 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.618 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:24:47.714 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:24:47.722 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:24:47.723 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:24:47.725 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:24:47.726 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:24:47.727 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:24:47.730 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:24:47.808 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:24:47.811 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:24:47.824 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:24:48.013 [warning] <0.6.0> lager_error_logger_h dropped 3 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:24:51.764 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:24:51.766 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:25:10.942 [info] <0.795.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[forprogram]]
+2017-05-12 01:28:39.699 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.705 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.706 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:28:39.795 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:28:39.795 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.796 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.798 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.803 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.830 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.840 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.840 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.850 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.852 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.852 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.856 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.924 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.925 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.926 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.932 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:28:39.943 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:28:40.039 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:28:40.047 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:28:40.047 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 01:28:40.049 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:28:40.050 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:28:40.052 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:28:40.053 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:28:40.056 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:28:40.056 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:28:40.097 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:28:40.098 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:28:40.136 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:28:40.140 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:28:40.151 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:28:40.316 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:28:44.090 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:28:44.092 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:28:49.315 [info] <0.376.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[]]
+2017-05-12 01:28:49.662 [error] <0.374.0> webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})
+2017-05-12 01:28:49.873 [warning] <0.374.0> webmachine_mochiweb:221 caught error {stop_request,500,{function_clause,[{filter_stringify,stringify_1,[{{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]},{context,volunteer,{wm_reqdata,#Port<0.32759>,{dict,7,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[[controller_module_error|controller_page]],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|volunteer]],[[controller_module|controller_http_error],[http_status_code|500]],[],[],[],[],[],[],[],[],[[error_reason|{{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/supp..."},...]},...]}]],...}}},...},...}],...},...]}} (stacktrace [{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,37}]},{webmachine_mochiweb,render_error,4,[{file,"src/webmachine_mochiweb.erl"},{line,211}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,104}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}])
+2017-05-12 01:31:19.391 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.403 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.403 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:31:19.497 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:31:19.497 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.498 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.500 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.505 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.532 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.542 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.542 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.552 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.554 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.554 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.557 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.625 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.626 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.626 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.633 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.643 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:31:19.740 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:31:19.748 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:31:19.749 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:31:19.751 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:31:19.752 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:31:19.753 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:31:19.756 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:31:19.841 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:31:19.844 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:31:19.857 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:31:20.001 [warning] <0.6.0> lager_error_logger_h dropped 4 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 01:31:20.036 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:31:23.791 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:31:23.792 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:31:23.792 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:31:23.792 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:31:23.794 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:31:28.036 [error] <0.361.0> webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})
+2017-05-12 01:31:28.241 [warning] <0.361.0> webmachine_mochiweb:221 caught error {stop_request,500,{function_clause,[{filter_stringify,stringify_1,[{{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]},{context,volunteer,{wm_reqdata,#Port<0.22113>,{dict,7,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[[controller_module_error|controller_page]],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|volunteer]],[[controller_module|controller_http_error],[http_status_code|500]],[],[],[],[],[],[],[],[],[[error_reason|{{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/supp..."},...]},...]}]],...}}},...},...}],...},...]}} (stacktrace [{webmachine_decision_core,handle_request,2,[{file,"src/webmachine_decision_core.erl"},{line,37}]},{webmachine_mochiweb,render_error,4,[{file,"src/webmachine_mochiweb.erl"},{line,211}]},{mochiweb_http,headers,5,[{file,"src/mochiweb_http.erl"},{line,104}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}])
+2017-05-12 01:31:50.346 [info] <0.888.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],#Fun<m_rsc.20.44299900>]
+2017-05-12 01:32:29.664 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.671 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.671 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:32:29.775 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:32:29.775 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.776 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.778 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.785 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.812 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.823 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.823 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.833 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.836 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.836 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.839 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.907 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.908 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.908 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.915 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:32:29.926 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:32:30.023 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:32:30.030 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:32:30.030 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 01:32:30.032 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:32:30.033 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:32:30.034 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:32:30.035 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:32:30.038 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:32:30.038 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:32:30.084 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:32:30.085 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:32:30.126 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:32:30.129 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:32:30.142 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:32:30.319 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:32:34.077 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:32:34.080 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:32:43.859 [info] <0.382.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[]]
+2017-05-12 01:34:11.027 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.033 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.033 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:34:11.132 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:34:11.132 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.135 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.136 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.142 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.170 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.181 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.181 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.192 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.194 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.194 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.198 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.267 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.268 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.269 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.275 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.286 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.292 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 01:34:11.292 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 01:34:11.293 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.298 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.300 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.303 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.303 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.303 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.309 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.310 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.384 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:34:11.392 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:34:11.393 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:34:11.395 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:34:11.396 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:34:11.397 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:34:11.400 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:34:11.400 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:34:11.441 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:34:11.442 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:34:11.482 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:34:11.485 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:34:11.497 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:34:15.433 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:34:15.433 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:34:15.433 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:34:15.433 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:34:15.433 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:34:15.434 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:34:15.434 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:34:15.434 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:34:15.434 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:34:15.436 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:34:22.532 [info] <0.680.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],#Fun<m_rsc.19.32562138>]
+2017-05-12 01:35:00.802 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.809 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.809 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:35:00.906 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:35:00.906 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.908 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.909 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.915 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.942 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.952 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.953 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.962 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.964 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.964 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:35:00.967 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.037 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.038 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.038 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.045 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.056 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.062 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 01:35:01.062 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 01:35:01.063 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.067 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.070 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.072 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.072 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.072 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.078 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.079 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.154 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:35:01.162 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:35:01.163 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:35:01.164 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:35:01.165 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:35:01.167 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:35:01.170 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:35:01.170 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:35:01.210 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:35:01.211 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:35:01.249 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:35:01.252 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:35:01.264 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:35:05.203 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:35:05.205 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:35:17.850 [info] volunteer <0.329.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[forprogram]]
+2017-05-12 01:35:50.575 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.582 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.582 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:35:50.691 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:35:50.692 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.693 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.695 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.700 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.727 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.737 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.737 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.747 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.750 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.750 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.753 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.823 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.824 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.825 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.831 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.842 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:35:50.939 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:35:50.948 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:35:50.949 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:35:50.951 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:35:50.952 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:35:50.953 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:35:50.956 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:35:51.000 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 01:35:51.038 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:35:51.042 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:35:51.055 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:35:51.227 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:35:54.990 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:35:54.993 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:36:13.605 [info] <0.366.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[]]
+2017-05-12 01:43:26.774 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.781 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.781 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:43:26.882 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 01:43:26.882 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.883 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.885 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.890 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.915 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.925 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.926 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.935 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.937 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.937 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 01:43:26.941 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.011 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.012 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.013 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.019 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.030 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.036 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 01:43:27.036 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 01:43:27.037 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.041 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.043 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.046 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.046 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.046 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.052 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.053 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.127 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 01:43:27.136 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 01:43:27.137 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 01:43:27.138 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 01:43:27.140 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 01:43:27.141 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 01:43:27.144 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 01:43:27.144 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 01:43:27.191 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 01:43:27.192 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 01:43:27.231 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 01:43:27.235 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 01:43:27.246 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 01:43:31.183 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 01:43:31.185 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 01:43:42.667 [info] <0.373.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[316,314,312,301,304,316]]
+2017-05-12 02:02:48.769 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.777 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.778 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:02:48.884 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:02:48.885 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.886 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.888 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.893 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.919 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.929 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.929 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.939 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.941 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.941 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:02:48.945 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.014 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.014 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.015 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.021 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.032 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.038 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 02:02:49.038 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 02:02:49.039 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.043 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.046 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.048 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.048 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.048 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.054 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.055 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.129 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:02:49.138 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:02:49.139 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:02:49.140 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:02:49.141 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:02:49.142 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:02:49.145 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:02:49.145 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 02:02:49.186 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 02:02:49.187 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 02:02:49.224 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:02:49.228 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:02:49.239 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:02:53.179 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:02:53.181 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:03:02.281 [info] volunteer <0.354.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[]]
+2017-05-12 02:06:01.379 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.386 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.386 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:06:01.486 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:06:01.487 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.488 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.490 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.495 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.521 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.532 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.532 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.542 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.544 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.544 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.548 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.622 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.622 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.623 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.629 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.640 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:06:01.742 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:06:01.751 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:06:01.752 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:06:01.754 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:06:01.755 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:06:01.756 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:06:01.759 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:06:01.838 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:06:01.842 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:06:01.855 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:06:02.001 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 02:06:02.033 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 02:06:05.791 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:06:05.791 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:06:05.792 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:06:05.794 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:06:17.872 [info] <0.777.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[]]
+2017-05-12 02:07:48.957 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:07:48.964 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:07:48.965 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:07:49.068 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:07:49.069 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.070 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.071 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.077 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.104 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.114 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.114 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.124 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.127 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.127 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.130 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.205 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.206 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.206 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.213 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.224 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.231 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-05-12 02:07:49.231 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-05-12 02:07:49.232 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.236 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.238 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.240 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.240 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.241 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.246 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.247 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.328 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:07:49.337 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:07:49.339 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:07:49.340 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:07:49.342 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:07:49.343 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:07:49.346 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:07:49.346 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 02:07:49.386 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 02:07:49.387 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 02:07:49.428 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:07:49.431 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:07:49.443 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:07:53.378 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:07:53.378 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:07:53.378 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:07:53.378 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:07:53.379 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:07:53.379 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:07:53.379 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:07:53.379 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:07:53.379 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:07:53.385 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:08:06.961 [info] <0.331.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[{forprogram,[[{id,13},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,344},{seq,1000000},{created,{{2017,5,11},{17,5,4}}},{creator_id,1}]]}]]
+2017-05-12 02:08:35.508 [info] <0.331.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[{forprogram,[[{id,14},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,341},{seq,1000000},{created,{{2017,5,11},{19,8,32}}},{creator_id,1}],[{id,13},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,344},{seq,1000000},{created,{{2017,5,11},{17,5,4}}},{creator_id,1}]]}]]
+2017-05-12 02:18:32.609 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.615 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.615 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:18:32.701 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:18:32.702 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.703 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.705 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.712 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.739 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.755 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.755 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.772 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.777 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.777 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.781 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.853 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.854 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.855 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.862 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.872 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:18:32.970 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:18:32.978 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:18:32.979 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:18:32.981 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:18:32.982 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:18:32.983 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:18:32.986 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:18:33.002 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 02:18:33.023 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 02:18:33.024 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 02:18:33.062 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:18:33.065 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:18:33.077 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:18:33.236 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 02:18:37.016 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:18:37.016 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:18:37.016 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:18:37.016 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:18:37.017 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:18:37.017 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:18:37.017 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:18:37.017 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:18:37.017 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:18:37.019 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:18:51.551 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.558 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.558 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:18:51.655 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:18:51.655 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.657 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.659 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.665 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.695 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.707 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.707 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.718 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.721 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.721 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.724 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.796 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.797 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.797 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.804 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.815 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:18:51.917 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:18:51.926 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:18:51.927 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:18:51.929 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:18:51.930 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:18:51.931 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:18:51.934 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:18:52.003 [warning] <0.6.0> lager_error_logger_h dropped 4 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 02:18:52.013 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:18:52.017 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:18:52.028 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:18:52.204 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:18:55.968 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:18:55.971 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:19:29.079 [info] <0.871.0>@m_rsc:update:371 [update1] trace insert program [{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Program Trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:35"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}]
+2017-05-12 02:19:52.981 [info] <0.731.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],[{forprogram,[[{id,14},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,341},{seq,1000000},{created,{{2017,5,11},{19,8,32}}},{creator_id,1}],[{id,13},{subject_id,345},{predicate_id,316},{name,<<"forprogram">>},{object_id,344},{seq,1000000},{created,{{2017,5,11},{17,5,4}}},{creator_id,1}]]}]]
+2017-05-12 02:22:21.651 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.658 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.658 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:22:21.758 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-12 02:22:21.758 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.759 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.761 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.766 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.791 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.802 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.802 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.812 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.815 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.815 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.818 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.887 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.888 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.888 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.895 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-12 02:22:21.906 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-12 02:22:22.003 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-12 02:22:22.012 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-12 02:22:22.012 [warning] <0.6.0> lager_error_logger_h dropped 1 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-12 02:22:22.013 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-12 02:22:22.015 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-12 02:22:22.016 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-12 02:22:22.017 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-12 02:22:22.021 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-12 02:22:22.021 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-05-12 02:22:22.059 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-05-12 02:22:22.060 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-05-12 02:22:22.100 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.257.0>)
+2017-05-12 02:22:22.103 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.266.0>)
+2017-05-12 02:22:22.115 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-12 02:22:22.273 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-12 02:22:26.052 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-12 02:22:26.055 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-12 02:22:37.770 [info] <0.368.0>@m_rsc:update:375 FORMAT ERROR: "[update1] trace insert donation ~p" [[{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","Tes trace"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"amount","5000000"},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-11"},{"dt:hi:0:publication_start","23:36"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}],{rsc_list,[344,341]}]
+2017-05-12 02:32:41.621 [info] <0.4588.0>@m_rsc:update:377 [update1] trace insert other [{"title$ar",[]},{"summary$ar",[]},{"short_title$ar",[]},{"title$de",[]},{"summary$de",[]},{"short_title$de",[]},{"title$en","tes other"},{"summary$en",[]},{"short_title$en",[]},{"title$es",[]},{"summary$es",[]},{"short_title$es",[]},{"title$et",[]},{"summary$et",[]},{"short_title$et",[]},{"title$fr",[]},{"summary$fr",[]},{"short_title$fr",[]},{"title$nl",[]},{"summary$nl",[]},{"short_title$nl",[]},{"title$pl",[]},{"summary$pl",[]},{"short_title$pl",[]},{"title$ru",[]},{"summary$ru",[]},{"short_title$ru",[]},{"title$tr",[]},{"summary$tr",[]},{"short_title$tr",[]},{"title$zh",[]},{"summary$zh",[]},{"short_title$zh",[]},{"phone",[]},{"phone_mobile",[]},{"phone_alt",[]},{"phone_emergency",[]},{"website",[]},{"is_website_redirect",[]},{"email",[]},{"address_country",[]},{"address_street_1",[]},{"address_street_2",[]},{"address_city",[]},{"address_postcode",[]},{"address_state",[]},{"mail_country",[]},{"mail_street_1",[]},{"mail_street_2",[]},{"mail_city",[]},{"mail_postcode",[]},{"mail_state",[]},{"body$ar",[]},{"body$de",[]},{"body$en",[]},{"body$es",[]},{"body$et",[]},{"body$fr",[]},{"body$nl",[]},{"body$pl",[]},{"body$ru",[]},{"body$tr",[]},{"body$zh",[]},{"block-",[]},{"page_path",[]},{"is_page_path_multiple",[]},{"name",[]},{"custom_slug",[]},{"seo_noindex",[]},{"seo_title",[]},{"seo_keywords",[]},{"seo_desc",[]},{"is_published","1"},{"is_featured",[]},{"is_protected",[]},{"is_dependent",[]},{"visible_for","0"},{"dt:ymd:0:publication_start","2017-05-12"},{"dt:hi:0:publication_start","02:32"},{"dt:ymd:1:publication_end",[]},{"dt:hi:1:publication_end",[]},{"dt:ymd:0:org_pubdate",[]},{"dt:hi:0:org_pubdate",[]},{"date_is_all_day",[]},{"dt:ymd:0:date_start",[]},{"dt:hi:0:date_start",[]},{"dt:ymd:1:date_end",[]},{"dt:hi:1:date_end",[]},{"date_remarks$ar",[]},{"date_remarks$de",[]},{"date_remarks$en",[]},{"date_remarks$es",[]},{"date_remarks$et",[]},{"date_remarks$fr",[]},{"date_remarks$nl",[]},{"date_remarks$pl",[]},{"date_remarks$ru",[]},{"date_remarks$tr",[]},{"date_remarks$zh",[]},{"language",[]},{"language","en"},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]},{"language",[]}]
