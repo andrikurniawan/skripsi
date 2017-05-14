@@ -69,7 +69,20 @@ call_api_controller(Key, Data) ->
 			lager:info("key ~p", [Data]),
 			lager:info("key ~s", [jiffy:encode({Data})]),
 			{DecodeJson} = fetch_data(binary_to_list(Url), jiffy:encode({Data})),
-			lager:info("[ABS] result ~p", [DecodeJson])
+			lager:info("[ABS] result ~p", [DecodeJson]),
+			case proplists:get_value(<<"status">>, DecodeJson) of
+				200 ->
+					DataResult = proplists:get_value(<<"data">>, DecodeJson),
+					lager:info("[ABS] status 200 ~p", [DataResult]);
+				201 ->
+					Message = proplists:get_value(<<"message">>, DecodeJson),
+					lager:info("[ABS] status 201 ~p", [binary_to_list(Message)]);
+				400 ->
+					Message = proplists:get_value(<<"message">>, DecodeJson),
+					lager:error("[ABS] status 400 ~p", [Message]);
+				_Other -> 
+					lager:error("[ABS] status undefined ~p", [_Other])
+			end  
 	end.
 
 -spec fetch_data(Url, Query) -> list() when

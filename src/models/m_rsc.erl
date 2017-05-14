@@ -355,7 +355,19 @@ insert(Props, Context) ->
 %% @doc Delete a resource
 -spec delete(resource(), #context{}) -> ok | {error, term()}.
 delete(Id, Context) ->
-    lager:info("[delete] trace delete ~p", [Id]),
+    case is_a(Id, program, Context) of
+        true ->
+            Json = [{id, Id}],
+            m_abs:call_api_controller(deleteProgram, Json);
+        false ->
+            case is_a(Id, donation, Context) of
+                true ->
+                    Json = [{id, Id}],
+                    m_abs:call_api_controller(deleteDonation, Json);
+                false ->
+                    lager:info("[rsc] delete other category")
+            end
+    end,
     m_rsc_update:delete(Id, Context).
 
 %% @doc Merge a resource with another, delete the loser.
@@ -369,13 +381,16 @@ update(Id, Props, Context) ->
     case is_a(Id, program, Context) of
         true ->
             Json = [{id, Id}, {name, binary_to_atom(english_title(Id, Context), latin1)}],
-            m_abs:call_api_controller(createProgram, Json),
-            lager:info("[update1] trace insert program ~p", [Props]),
-            lager:info("[update1] trace insert program ~p", [Json]);
+            m_abs:call_api_controller(createProgram, Json);
         false ->
             case is_a(Id, donation, Context) of
                 true ->
-                    lager:info("[update1] trace insert donation ~p", [Props, o(Id,316,Context)]);
+                    lager:info("[donasi] update ~p", [Id]),
+                    Name = binary_to_atom(english_title(Id,Context), latin1),
+                    Amount = list_to_integer(proplists:get_value("amount", Props)),
+                    {_, [Pid]} = o(Id, 316, Context),
+                    Json = [{id, Id}, {name, Name}, {amount, Amount}, {p_id, Pid}],
+                    m_abs:call_api_controller(createDonation, Json);
                 false->
                     lager:info("[update1] trace insert other ~p", [Props])
             end

@@ -203,3 +203,20 @@
 2017-05-15 02:06:32.052 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
 2017-05-15 02:07:42.113 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
 2017-05-15 02:07:42.635 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:12:17.560 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:12:18.017 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:16:00.726 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:16:01.189 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:19:24.862 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:19:25.321 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:20:38.043 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:20:38.513 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:30:16.707 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:30:17.167 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:32:06.526 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:32:06.974 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:33:50.165 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:33:50.611 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:41:49.997 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:41:50.476 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-15 02:42:21.917 [error] <0.322.0>@controller_admin_edit:event:151 Rsc update error: error:{badmatch,{rsc_list,[]}} stacktrace: [{m_rsc,update,3,[{file,"src/models/m_rsc.erl"},{line,391}]},{controller_admin_edit,event,2,[{file,"modules/mod_admin/controllers/controller_admin_edit.erl"},{line,101}]},{z_transport,incoming_with_session,2,[{file,"src/support/z_transport.erl"},{line,250}]},{z_transport,incoming_msgs,2,[{file,"src/support/z_transport.erl"},{line,193}]},{z_transport,incoming,2,[{file,"src/support/z_transport.erl"},{line,161}]},{controller_websocket,websocket_message,3,[{file,"modules/mod_base/controllers/controller_websocket.erl"},{line,108}]},{z_websocket,websocket_handle,3,[{file,"modules/mod_base/support/z_websocket.erl"},{line,54}]},{z_ws_request_adapter,websocket_handler_callback,5,[{file,"modules/mod_base/support/z_ws_request_adapter.erl"},{line,212}]}]
