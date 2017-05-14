@@ -1,3 +1,5 @@
 {
-	"total": ["http://localhost:8888/total",2]
+	"total": ["http://localhost:8888/total",2],
+	"createProgram": ["http://54.169.128.6:8080/abs/program/create", 2],
+	"createDonation": ["http://54.169.128.6:8080/abs/donation/create", 4]
 }

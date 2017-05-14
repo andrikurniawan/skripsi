@@ -23,7 +23,8 @@
 -export([
 	m_find_value/3,
 	m_to_list/2,
-	m_value/2
+	m_value/2,
+	call_api_controller/2
 ]).
 
 -include_lib("zotonic.hrl").
@@ -58,6 +59,18 @@ m_to_list(_, _Context) ->
 
 m_value(_, _Context) ->
 	undefined.
+
+call_api_controller(Key, Data) ->
+	[Url, Param] = lookup_rules(Key),
+	case validate_params(Param, Data) of
+		false ->
+			[{error, "Num of Params not same"}];
+		true ->
+			lager:info("key ~p", [Data]),
+			lager:info("key ~s", [jiffy:encode({Data})]),
+			{DecodeJson} = fetch_data(binary_to_list(Url), jiffy:encode({Data})),
+			lager:info("[ABS] result ~p", [DecodeJson])
+	end.
 
 -spec fetch_data(Url, Query) -> list() when
 	Url:: list(),

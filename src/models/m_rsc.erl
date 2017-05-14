@@ -368,7 +368,10 @@ merge_delete(WinnerId, LoserId, Context) ->
 update(Id, Props, Context) ->
     case is_a(Id, program, Context) of
         true ->
-            lager:info("[update1] trace insert program ~p", [Props]);
+            Json = [{id, Id}, {name, binary_to_atom(english_title(Id, Context), latin1)}],
+            m_abs:call_api_controller(createProgram, Json),
+            lager:info("[update1] trace insert program ~p", [Props]),
+            lager:info("[update1] trace insert program ~p", [Json]);
         false ->
             case is_a(Id, donation, Context) of
                 true ->
