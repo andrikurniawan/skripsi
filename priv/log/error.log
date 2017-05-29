@@ -286,3 +286,8 @@
 2017-05-30 03:26:25.619 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
 2017-05-30 03:27:00.231 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
 2017-05-30 03:27:00.707 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:32:54.510 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:32:54.966 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:33:05.080 [error] sidang <0.950.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})
+2017-05-30 03:33:06.699 [error] sidang <0.336.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})
+2017-05-30 03:33:23.972 [error] sidang <0.335.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})

@@ -5689,3 +5689,51 @@
 2017-05-30 03:28:45.155 [info] sidang <0.350.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,2050000}]
 2017-05-30 03:28:48.794 [info] sidang <0.351.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,2050000}]
 2017-05-30 03:28:48.834 [info] sidang <0.345.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,2050000}]
+2017-05-30 03:32:54.504 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.510 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.510 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:32:54.616 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-05-30 03:32:54.617 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.618 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.619 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.624 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.651 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.661 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.661 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.671 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.673 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.673 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.676 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.744 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.745 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.746 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.752 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.762 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-05-30 03:32:54.858 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-05-30 03:32:54.865 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-05-30 03:32:54.866 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-05-30 03:32:54.868 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-05-30 03:32:54.869 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-05-30 03:32:54.870 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-05-30 03:32:54.873 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-05-30 03:32:54.951 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.258.0>)
+2017-05-30 03:32:54.953 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: sidang (<0.267.0>)
+2017-05-30 03:32:54.953 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.289.0>)
+2017-05-30 03:32:54.966 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:32:55.069 [warning] <0.6.0> lager_error_logger_h dropped 3 messages in the last second that exceeded the limit of 50 messages/sec
+2017-05-30 03:32:55.148 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:164 
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:169 
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-05-30 03:32:58.906 [info] <0.246.0>@zotonic_sup:init:185 
+2017-05-30 03:32:58.912 [info] <0.246.0>@zotonic_sup:init:186 http://sidang.dev:8000                         - running
+2017-05-30 03:32:58.912 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-05-30 03:33:05.080 [error] sidang <0.950.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})
+2017-05-30 03:33:06.699 [error] sidang <0.336.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})
+2017-05-30 03:33:23.972 [error] sidang <0.335.0>@z_template:render1:121 Error rendering template: "/home/andri/skripsi/zotonic/user/sites/sidang/templates/page.tpl" ({error,{668,invalid_json}})
+2017-05-30 03:34:20.513 [info] sidang <0.335.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]

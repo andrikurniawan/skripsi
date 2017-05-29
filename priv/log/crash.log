@@ -230,3 +230,5 @@ Unable to read boot script (start_sasl.script): {error,enoent}
 Unable to read boot script (start_sasl.script): {error,enoent}
 2017-05-30 03:27:00 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:32:54 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
