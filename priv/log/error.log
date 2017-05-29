@@ -271,3 +271,18 @@
 2017-05-15 13:15:08.320 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
 2017-05-16 00:31:00.145 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
 2017-05-16 00:31:02.203 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 02:49:51.235 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 02:49:51.671 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 02:50:14.044 [error] <0.338.0> webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,50}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})
+2017-05-30 02:58:25.148 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 02:58:25.593 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 02:59:59.689 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:00:00.132 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:14:06.979 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:14:07.486 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:14:50.368 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:14:50.824 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:26:25.175 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:26:25.619 [error] <0.292.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-05-30 03:27:00.231 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:27:00.707 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files

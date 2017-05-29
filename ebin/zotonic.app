@@ -238,7 +238,7 @@
                         service_development_techempower_json,
                         service_menu_menuexport,service_search_search,
                         service_survey_submit,service_zotonic_status_check,
-                        service_zotonic_status_stats,survey_admin,
+                        service_zotonic_status_stats,sidang,survey_admin,
                         survey_answer_prep,survey_q_button,survey_q_category,
                         survey_q_country,survey_q_likert,survey_q_long_answer,
                         survey_q_matching,survey_q_multiple_choice,
