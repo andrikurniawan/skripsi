@@ -381,7 +381,7 @@ update(Id, Props, Context) ->
     case is_a(Id, program, Context) of
         true ->
             Json = [{id, Id}, {name, binary_to_atom(english_title(Id, Context), latin1)}],
-            Command = check_update_or_insert(Id, Context) ++ "Program",
+            Command = check_update_or_insert(Id, "Program") ++ "Program",
             lager:info("[rsc] check command ~p", [Command]),
             m_abs:call_api_controller(list_to_atom(Command), Json);
         false ->
@@ -392,8 +392,8 @@ update(Id, Props, Context) ->
                     Amount = list_to_integer(proplists:get_value("amount", Props)),
                     {_, [Pid]} = o(Id, 316, Context),
                     Json = [{id, Id}, {name, Name}, {amount, Amount}, {pId, Pid}],
-                    % Command = check_update_or_insert(Id, Context) ++ "Donation",
-                    % lager:info("[rsc] check command ~p", [Command]),
+                    Command = check_update_or_insert(Id, "Donation") ++ "Donation",
+                    lager:info("[rsc] check command ~p", [Command]),
                     m_abs:call_api_controller(createDonation, Json);
                 false->
                     lager:info("[update1] trace insert other ~p", [Context])
@@ -910,10 +910,10 @@ ensure_name_unique(BaseName, N, Context) ->
         _Id -> ensure_name_unique(BaseName, N+1, Context)
     end.
 
-check_update_or_insert(Id, Context) ->
-    Created = z_db:q1("select created from rsc where id = $1", [Id], Context),
-    Modified = z_db:q1("select modified from rsc where id = $1", [Id], Context),
-    case Modified > Created of
+check_update_or_insert(Id, Type) ->
+    Json = [{id, Id}],
+    Command = list_to_atom("checkExist" ++ Type),
+    case m_abs:call_api_controller(Command, Json) of
         true ->
             "update";
         false ->

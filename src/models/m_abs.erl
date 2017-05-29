@@ -75,8 +75,8 @@ call_api_controller(Key, Data) ->
 			lager:info("[ABS] result ~p", [DecodeJson]),
 			case proplists:get_value(<<"status">>, DecodeJson) of
 				200 ->
-					DataResult = proplists:get_value(<<"data">>, DecodeJson),
-					lager:info("[ABS] status 200 ~p", [DataResult]);
+					lager:info("[ABS] status 200 ~p", [proplists:get_value(<<"data">>, DecodeJson)]),
+					proplists:get_value(<<"data">>, DecodeJson);
 				201 ->
 					Message = proplists:get_value(<<"message">>, DecodeJson),
 					lager:info("[ABS] status 201 ~p", [binary_to_list(Message)]);
