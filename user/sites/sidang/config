@@ -16,7 +16,7 @@
  },
  {dbuser, "zotonic"},
  {dbpassword, "zotonic"},
- {dbdatabase, "zotonic"},
+ {dbdatabase, "sidang"},
  {dbschema, "public"},
 
  %% Depcache settings, maximum size in mbs

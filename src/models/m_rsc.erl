@@ -394,7 +394,7 @@ update(Id, Props, Context) ->
                     Json = [{id, Id}, {name, Name}, {amount, Amount}, {pId, Pid}],
                     Command = check_update_or_insert(Id, "Donation") ++ "Donation",
                     lager:info("[rsc] check command ~p", [Command]),
-                    m_abs:call_api_controller(createDonation, Json);
+                    m_abs:call_api_controller(list_to_atom(Command), Json);
                 false->
                     lager:info("[update1] trace insert other ~p", [Context])
             end

@@ -318,3 +318,13 @@
 2017-05-30 04:46:06.453 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
 2017-05-30 04:50:49.614 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
 2017-05-30 04:50:50.075 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 00:25:54.117 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 00:25:55.609 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:33:44.386 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:33:44.856 [error] <0.341.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:35:25.734 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:35:26.236 [error] <0.341.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:46:54.416 [error] <0.6739.0>@controller_admin_edit:event:151 Rsc update error: error:{badmatch,{rsc_list,[]}} stacktrace: [{m_rsc,update,3,[{file,"src/models/m_rsc.erl"},{line,393}]},{controller_admin_edit,event,2,[{file,"modules/mod_admin/controllers/controller_admin_edit.erl"},{line,101}]},{z_transport,incoming_with_session,2,[{file,"src/support/z_transport.erl"},{line,250}]},{z_transport,incoming_msgs,2,[{file,"src/support/z_transport.erl"},{line,193}]},{z_transport,incoming,2,[{file,"src/support/z_transport.erl"},{line,161}]},{controller_websocket,websocket_message,3,[{file,"modules/mod_base/controllers/controller_websocket.erl"},{line,108}]},{z_websocket,websocket_handle,3,[{file,"modules/mod_base/support/z_websocket.erl"},{line,54}]},{z_ws_request_adapter,websocket_handler_callback,5,[{file,"modules/mod_base/support/z_ws_request_adapter.erl"},{line,212}]}]
+2017-06-01 01:49:25.732 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:49:26.189 [error] <0.340.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:59:11.836 [error] <0.7124.0>@m_abs:call_api_controller:85 [ABS] status 400 <<"Gagal menghapus program">>

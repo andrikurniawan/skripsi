@@ -70,7 +70,7 @@
                         action_signal_connect,action_signal_disconnect,
                         action_signal_emit,admin_acl_rules,
                         admin_acl_rules_rsc,admin_rsc_diff,atom_convert,
-                        atom_convert_tests,base64url,controller_admin,
+                        atom_convert_tests,base64url,bsmi,controller_admin,
                         controller_admin_acl_rules_export,
                         controller_admin_backup,
                         controller_admin_backup_revision,

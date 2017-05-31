@@ -6302,3 +6302,344 @@
 2017-05-30 04:51:25.022 [info] <0.358.0>@m_abs:call_api_controller:73 key {"id":343,"name":"Donasi Sidang 1","amount":2000000,"pId":342}
 2017-05-30 04:51:25.078 [info] <0.358.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Donasi berhasil disimpan">>},{<<"data">>,{[{<<"id">>,343},{<<"name">>,<<"Donasi Sidang 1">>},{<<"amount">>,2000000},{<<"pId">>,342}]}}]
 2017-05-30 04:51:25.078 [info] <0.358.0>@m_abs:call_api_controller:82 [ABS] status 201 "Donasi berhasil disimpan"
+2017-06-01 00:25:54.110 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.117 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.117 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 00:25:54.336 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-06-01 00:25:54.336 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.338 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.339 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.360 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.477 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.518 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.518 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.562 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.572 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.572 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.618 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.694 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.694 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.695 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.722 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.759 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.767 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-06-01 00:25:54.767 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-06-01 00:25:54.768 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.799 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.801 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.804 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.804 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.804 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.823 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.825 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-06-01 00:25:54.954 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-06-01 00:25:55.006 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-06-01 00:25:55.007 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-06-01 00:25:55.018 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-06-01 00:25:55.020 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-06-01 00:25:55.033 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-06-01 00:25:55.038 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-06-01 00:25:55.038 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-06-01 00:25:55.222 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-06-01 00:25:55.223 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-06-01 00:25:55.508 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.258.0>)
+2017-06-01 00:25:55.524 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: sidang (<0.267.0>)
+2017-06-01 00:25:55.524 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.289.0>)
+2017-06-01 00:25:55.609 [error] <0.316.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 00:25:55.746 [warning] <0.283.0>@z_db_pgsql:connect:189 psql connection to "127.0.0.1":5432 returned error {error,{error,fatal,<<"3D000">>,<<"database \"sidang\" does not exist">>,[]}}
+2017-06-01 00:25:55.747 [warning] sidang <0.288.0>@z_db_pgsql:connect:189 psql connection to "127.0.0.1":5432 returned error {error,{error,fatal,<<"3D000">>,<<"database \"sidang\" does not exist">>,[]}}
+2017-06-01 00:25:55.747 [warning] sidang <0.288.0>@z_installer:check_db_and_upgrade:122 Database connection failure: {error,fatal,<<"3D000">>,<<"database \"sidang\" does not exist">>,[]}
+2017-06-01 00:25:56.036 [warning] sidang <0.288.0>@z_db:ensure_database:652 Creating database "sidang" with options: [{dbdatabase,"sidang"},{dbhost,"127.0.0.1"},{dbport,5432},{dbschema,"public"},{dbuser,"zotonic"}]
+2017-06-01 00:25:56.918 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:164 
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:169 
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-06-01 00:25:59.173 [info] <0.246.0>@zotonic_sup:init:185 
+2017-06-01 00:25:59.176 [info] <0.246.0>@zotonic_sup:init:186 http://localhost                               - running
+2017-06-01 00:25:59.176 [info] <0.246.0>@zotonic_sup:init:186 http://localhost                               - running
+2017-06-01 00:26:00.536 [info] sidang <0.288.0>@z_installer:check_db_and_upgrade:130 Retrying install check after db creation.
+2017-06-01 00:26:00.548 [info] sidang <0.288.0>@z_installer:check_db_and_upgrade:105 Installing database with db options: [{dbdatabase,"sidang"},{dbhost,"127.0.0.1"},{dbport,5432},{dbschema,"public"},{dbuser,"zotonic"}]
+2017-06-01 00:26:06.886 [info] sidang <0.288.0>@z_install_data:install:35 sidang: Install start.
+2017-06-01 00:26:06.886 [info] sidang <0.288.0>@z_install_data:install_category:149 Inserting categories
+2017-06-01 00:26:06.914 [info] sidang <0.288.0>@z_install_data:install_rsc:229 Inserting base resources (admin, etc.)
+2017-06-01 00:26:06.918 [info] sidang <0.288.0>@z_install_data:install_identity:245 Inserting username for the admin
+2017-06-01 00:26:07.548 [info] sidang <0.288.0>@z_install_data:install_predicate:257 Inserting predicates
+2017-06-01 00:26:07.578 [info] sidang <0.288.0>@z_install_data:install:42 sidang: Install done.
+2017-06-01 00:26:07.896 [info] <0.798.0>@z_install_defaultdata:install:155 Installing blog data
+2017-06-01 00:26:07.912 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new text 'page_home'
+2017-06-01 00:26:08.290 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new text 'page_about'
+2017-06-01 00:26:08.315 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new text 'page_contact'
+2017-06-01 00:26:08.521 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new article 'blog_article_welcome'
+2017-06-01 00:26:08.601 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new article 'blog_article_learnmore'
+2017-06-01 00:26:08.679 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new article 'blog_article_demo'
+2017-06-01 00:26:08.740 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new keyword 'kw_announcement'
+2017-06-01 00:26:08.762 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new keyword 'kw_technical'
+2017-06-01 00:26:08.818 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new keyword 'kw_support'
+2017-06-01 00:26:08.840 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new media 'media_learning'
+2017-06-01 00:26:09.960 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new category 'menu'
+2017-06-01 00:26:10.143 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new menu 'main_menu'
+2017-06-01 00:26:10.253 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new category 'admin_content_query'
+2017-06-01 00:26:10.799 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new media 'media_welcome'
+2017-06-01 00:26:11.236 [info] z_datamodel:169 [sidang] info @ z_datamodel:169  Creating new media 'media_video'
+2017-06-01 00:26:29.909 [info] sidang <0.803.0>@m_category:renumber_pivot_task:790 Category renumbering completed
+2017-06-01 01:33:44.380 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.386 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.386 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:33:44.491 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-06-01 01:33:44.491 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.493 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.494 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.499 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.526 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.536 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.536 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.546 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.548 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.549 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.552 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.623 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.624 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.624 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.631 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.642 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-06-01 01:33:44.737 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-06-01 01:33:44.745 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-06-01 01:33:44.746 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-06-01 01:33:44.748 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-06-01 01:33:44.749 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-06-01 01:33:44.750 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-06-01 01:33:44.753 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-06-01 01:33:44.837 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.259.0>)
+2017-06-01 01:33:44.840 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: bsmi (<0.268.0>)
+2017-06-01 01:33:44.840 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: sidang (<0.290.0>)
+2017-06-01 01:33:44.840 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.312.0>)
+2017-06-01 01:33:44.856 [error] <0.341.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:33:45.006 [warning] <0.6.0> lager_error_logger_h dropped 4 messages in the last second that exceeded the limit of 50 messages/sec
+2017-06-01 01:33:45.063 [info] <0.7.0> Application zotonic started on node zotonic001@Kurniawan
+2017-06-01 01:33:48.787 [info] <0.246.0>@zotonic_sup:init:164 
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:169 
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-06-01 01:33:48.788 [info] <0.246.0>@zotonic_sup:init:185 
+2017-06-01 01:33:48.793 [info] <0.246.0>@zotonic_sup:init:186 http://bsmi.dev:8000                           - running
+2017-06-01 01:33:48.793 [info] <0.246.0>@zotonic_sup:init:186 http://sidang.dev:8000                         - running
+2017-06-01 01:33:48.793 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-06-01 01:35:25.727 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.734 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.734 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:35:25.844 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-06-01 01:35:25.844 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.846 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.847 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.853 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.880 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.891 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.891 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.902 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.904 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.904 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.907 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.982 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.982 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.983 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-06-01 01:35:25.990 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.001 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.008 [info] <0.208.0> filezcache: repopulating cache with 0 keys
+2017-06-01 01:35:26.008 [info] <0.208.0> filezcache: scanning cache directory for unknown files.
+2017-06-01 01:35:26.009 [info] <0.7.0> Application filezcache started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.013 [info] <0.7.0> Application s3filez started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.015 [info] <0.7.0> Application erlang_localtime started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.017 [info] <0.7.0> Application cf started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.018 [info] <0.7.0> Application erlware_commons started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.018 [info] <0.7.0> Application qdate started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.024 [info] <0.7.0> Application bcrypt started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.025 [info] <0.7.0> Application erlpass started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.106 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-06-01 01:35:26.114 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-06-01 01:35:26.115 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-06-01 01:35:26.117 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-06-01 01:35:26.118 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-06-01 01:35:26.119 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-06-01 01:35:26.122 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-06-01 01:35:26.123 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-06-01 01:35:26.167 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-06-01 01:35:26.168 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-06-01 01:35:26.214 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.259.0>)
+2017-06-01 01:35:26.219 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: bsmi (<0.268.0>)
+2017-06-01 01:35:26.219 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: sidang (<0.290.0>)
+2017-06-01 01:35:26.219 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.312.0>)
+2017-06-01 01:35:26.236 [error] <0.341.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:35:26.305 [warning] <0.284.0>@z_db_pgsql:connect:189 psql connection to "127.0.0.1":5432 returned error {error,{error,fatal,<<"3D000">>,<<"database \"bsmi\" does not exist">>,[]}}
+2017-06-01 01:35:26.307 [warning] bsmi <0.289.0>@z_db_pgsql:connect:189 psql connection to "127.0.0.1":5432 returned error {error,{error,fatal,<<"3D000">>,<<"database \"bsmi\" does not exist">>,[]}}
+2017-06-01 01:35:26.307 [warning] bsmi <0.289.0>@z_installer:check_db_and_upgrade:122 Database connection failure: {error,fatal,<<"3D000">>,<<"database \"bsmi\" does not exist">>,[]}
+2017-06-01 01:35:26.359 [warning] bsmi <0.289.0>@z_db:ensure_database:652 Creating database "bsmi" with options: [{dbdatabase,"bsmi"},{dbhost,"127.0.0.1"},{dbport,5432},{dbschema,"public"},{dbuser,"zotonic"}]
+2017-06-01 01:35:27.169 [info] bsmi <0.289.0>@z_installer:check_db_and_upgrade:130 Retrying install check after db creation.
+2017-06-01 01:35:27.175 [info] bsmi <0.289.0>@z_installer:check_db_and_upgrade:105 Installing database with db options: [{dbdatabase,"bsmi"},{dbhost,"127.0.0.1"},{dbport,5432},{dbschema,"public"},{dbuser,"zotonic"}]
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:164 
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:169 
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-06-01 01:35:30.159 [info] <0.246.0>@zotonic_sup:init:185 
+2017-06-01 01:35:30.161 [info] <0.246.0>@zotonic_sup:init:186 http://localhost                               - running
+2017-06-01 01:35:30.162 [info] <0.246.0>@zotonic_sup:init:186 http://sidang.dev:8000                         - running
+2017-06-01 01:35:30.162 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-06-01 01:35:30.835 [info] bsmi <0.289.0>@z_install_data:install:35 bsmi: Install start.
+2017-06-01 01:35:30.835 [info] bsmi <0.289.0>@z_install_data:install_category:149 Inserting categories
+2017-06-01 01:35:30.862 [info] bsmi <0.289.0>@z_install_data:install_rsc:229 Inserting base resources (admin, etc.)
+2017-06-01 01:35:30.867 [info] bsmi <0.289.0>@z_install_data:install_identity:245 Inserting username for the admin
+2017-06-01 01:35:31.389 [info] bsmi <0.289.0>@z_install_data:install_predicate:257 Inserting predicates
+2017-06-01 01:35:31.415 [info] bsmi <0.289.0>@z_install_data:install:42 bsmi: Install done.
+2017-06-01 01:35:31.460 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-06-01 01:35:31.518 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new category 'menu'
+2017-06-01 01:35:31.562 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new menu 'main_menu'
+2017-06-01 01:35:31.661 [info] <0.969.0>@z_install_defaultdata:install:155 Installing blog data
+2017-06-01 01:35:31.663 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new text 'page_home'
+2017-06-01 01:35:31.706 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new text 'page_about'
+2017-06-01 01:35:31.762 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new text 'page_contact'
+2017-06-01 01:35:31.834 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new article 'blog_article_welcome'
+2017-06-01 01:35:32.097 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new article 'blog_article_learnmore'
+2017-06-01 01:35:32.153 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new article 'blog_article_demo'
+2017-06-01 01:35:32.209 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new keyword 'kw_announcement'
+2017-06-01 01:35:32.275 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new keyword 'kw_technical'
+2017-06-01 01:35:32.297 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new keyword 'kw_support'
+2017-06-01 01:35:32.342 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new media 'media_learning'
+2017-06-01 01:35:32.414 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new media 'media_welcome'
+2017-06-01 01:35:32.476 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new media 'media_video'
+2017-06-01 01:35:33.176 [info] z_datamodel:169 [bsmi] info @ z_datamodel:169  Creating new category 'admin_content_query'
+2017-06-01 01:35:53.729 [info] bsmi <0.974.0>@m_category:renumber_pivot_task:790 Category renumbering completed
+2017-06-01 01:41:46.180 [info] bsmi <0.4651.0>@m_rsc:update:399 [update1] trace insert other {context,bsmi,{wm_reqdata,#Port<0.30658>,{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|bsmi]],[[controller_module|controller_postback]],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",standard,{wm_log_data,484251720,undefined,{1496,256106,57792},'POST',{11,{"host",{'Host',"bsmi.dev:8000"},{"accept",{'Accept',"text/x-ubf, */*; q=0.01"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.5"},{"accept-encoding",{'Accept-Encoding',"gzip, deflate"},nil,nil},{"content-type",{'Content-Type',"text/x-ubf"},{"content-length",{'Content-Length',"744"},{"connection",{'Connection',"keep-alive"},nil,nil},nil},{"cookie",{'Cookie',"z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_logon=g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D; z_sid=x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"},nil,nil}}}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0"},{"referer",{'Referer',"http://bsmi.dev:8000/en/admin/logon?p=%2Fen%2Fadmin"},nil,nil},{"x-requested-with",{"X-Requested-With","XMLHttpRequest"},nil,nil}}}},"127.0.0.1","/postback",{1,1},404,0,undefined,undefined,undefined},'POST',http,{1,1},"/postback","/postback","/postback",{dict,3,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[[zotonic_host|bsmi]],[],[],[],[[zotonic_dispatch|postback],[zotonic_dispatch_path,"postback"]],[],[],[],[],[],[],[]}}},["postback"],".",500,1073741824,[{"z_ua","c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768"},{"z_logon","g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D"},{"z_sid","x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"}],[],[{"accept","text/x-ubf, */*; q=0.01"},{"accept-encoding","gzip, deflate"},{"accept-language","en-US,en;q=0.5"},{"connection","keep-alive"},{"content-length","744"},{"content-type","text/x-ubf"},{"cookie","z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_logon=g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D; z_sid=x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"},{"host","bsmi.dev:8000"},{"referer","http://bsmi.dev:8000/en/admin/logon?p=%2Fen%2Fadmin"},{"user-agent","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0"},{"x-requested-with","XMLHttpRequest"}],<<"{'z_msg_v1',1,'false',4~-z-0~,1496256106053,'ubf','postback','undefined','desktop','undefined',20~7Nz5LZwiimLvWFKDvPPW~,{,'postback_event',120~AV3rttIuhY2SH9nAfB5WrE5YhoaDaAVrAAZzdWJtaXRrAApsb2dvbl9mb3JtawAKbG9nb25fZm9ybWgCZAAFbG9nb25qZAASbW9kX2F1dGhlbnRpY2F0aW9u~,10~logon_form~,'undefined',0~~,{,'q',#,{,10~rememberme~,0~~,},&,{,8~password~,5~admin~,},&,{,8~username~,5~admin~,},&,{,7~handler~,8~username~,},&,{,4~page~,9~/en/admin~,},&,{,3~z_v~,131~password:qkyl5RO-gtAFdVmZJdIFdkw3o9WDaANrAAhwYXNzd29yZGsACHBhc3N3b3JkbAAAAAFoA2QACHByZXNlbmNlZAAXdmFsaWRhdG9yX2Jhc2VfcHJlc2VuY2Vqag~,},&,{,3~z_v~,131~username:gYo07ymT6VbRjWVBnEewborOPmODaANrAAh1c2VybmFtZWsACHVzZXJuYW1lbAAAAAFoA2QACHByZXNlbmNlZAAXdmFsaWRhdG9yX2Jhc2VfcHJlc2VuY2Vqag~,},&,},}}$">>,false,{6,{"cache-control",{"Cache-Control","no-store, no-cache, must-revalidate, post-check=0, pre-check=0"},nil,{"expires",{"Expires","Wed, 10 Dec 2008 08:30:00 GMT"},{"content-type",{"Content-Type","text/x-ubf"},nil,nil},{"p3p",{"P3P","CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""},nil,{"vary",{"Vary","Accept"},{"set-cookie",{"Set-Cookie","z_sid..."},...},...}}}}},...},...}
+2017-06-01 01:41:46.212 [info] bsmi <0.4651.0>@m_rsc:update:399 [update1] trace insert other {context,bsmi,{wm_reqdata,#Port<0.30658>,{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|bsmi]],[[controller_module|controller_postback]],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",standard,{wm_log_data,484251720,undefined,{1496,256106,57792},'POST',{11,{"host",{'Host',"bsmi.dev:8000"},{"accept",{'Accept',"text/x-ubf, */*; q=0.01"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.5"},{"accept-encoding",{'Accept-Encoding',"gzip, deflate"},nil,nil},{"content-type",{'Content-Type',"text/x-ubf"},{"content-length",{'Content-Length',"744"},{"connection",{'Connection',"keep-alive"},nil,nil},nil},{"cookie",{'Cookie',"z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_logon=g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D; z_sid=x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"},nil,nil}}}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0"},{"referer",{'Referer',"http://bsmi.dev:8000/en/admin/logon?p=%2Fen%2Fadmin"},nil,nil},{"x-requested-with",{"X-Requested-With","XMLHttpRequest"},nil,nil}}}},"127.0.0.1","/postback",{1,1},404,0,undefined,undefined,undefined},'POST',http,{1,1},"/postback","/postback","/postback",{dict,3,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[[zotonic_host|bsmi]],[],[],[],[[zotonic_dispatch|postback],[zotonic_dispatch_path,"postback"]],[],[],[],[],[],[],[]}}},["postback"],".",500,1073741824,[{"z_ua","c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768"},{"z_logon","g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D"},{"z_sid","x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"}],[],[{"accept","text/x-ubf, */*; q=0.01"},{"accept-encoding","gzip, deflate"},{"accept-language","en-US,en;q=0.5"},{"connection","keep-alive"},{"content-length","744"},{"content-type","text/x-ubf"},{"cookie","z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_logon=g2gDaAJoAmQAAm9raAJkAAJ2MW0AAAAUMmpicnNYSUpsajR5WVRFZzhNbWFoAmgDYgAAB%2BJhA2ETaANhDmENYTJrABRkY3RsTWJtcFFFSWJ3R3ZOME5xUW0AAAAUc0%2F08GRbitm7EaT3yuPfor7NLgw%3D; z_sid=x2tKezDPq20LvZd3HJyPLwMd3tpx3us2"},{"host","bsmi.dev:8000"},{"referer","http://bsmi.dev:8000/en/admin/logon?p=%2Fen%2Fadmin"},{"user-agent","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0"},{"x-requested-with","XMLHttpRequest"}],<<"{'z_msg_v1',1,'false',4~-z-0~,1496256106053,'ubf','postback','undefined','desktop','undefined',20~7Nz5LZwiimLvWFKDvPPW~,{,'postback_event',120~AV3rttIuhY2SH9nAfB5WrE5YhoaDaAVrAAZzdWJtaXRrAApsb2dvbl9mb3JtawAKbG9nb25fZm9ybWgCZAAFbG9nb25qZAASbW9kX2F1dGhlbnRpY2F0aW9u~,10~logon_form~,'undefined',0~~,{,'q',#,{,10~rememberme~,0~~,},&,{,8~password~,5~admin~,},&,{,8~username~,5~admin~,},&,{,7~handler~,8~username~,},&,{,4~page~,9~/en/admin~,},&,{,3~z_v~,131~password:qkyl5RO-gtAFdVmZJdIFdkw3o9WDaANrAAhwYXNzd29yZGsACHBhc3N3b3JkbAAAAAFoA2QACHByZXNlbmNlZAAXdmFsaWRhdG9yX2Jhc2VfcHJlc2VuY2Vqag~,},&,{,3~z_v~,131~username:gYo07ymT6VbRjWVBnEewborOPmODaANrAAh1c2VybmFtZWsACHVzZXJuYW1lbAAAAAFoA2QACHByZXNlbmNlZAAXdmFsaWRhdG9yX2Jhc2VfcHJlc2VuY2Vqag~,},&,},}}$">>,false,{6,{"cache-control",{"Cache-Control","no-store, no-cache, must-revalidate, post-check=0, pre-check=0"},nil,{"expires",{"Expires","Wed, 10 Dec 2008 08:30:00 GMT"},{"content-type",{"Content-Type","text/x-ubf"},nil,nil},{"p3p",{"P3P","CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""},nil,{"vary",{"Vary","Accept"},{"set-cookie",{"Set-Cookie","z_sid..."},...},...}}}}},...},...}
+2017-06-01 01:43:02.004 [info] bsmi <0.4651.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:44:23.208 [info] <0.4650.0>@m_abs:call_api_controller:72 key [{id,340}]
+2017-06-01 01:44:23.208 [info] <0.4650.0>@m_abs:call_api_controller:73 key {"id":340}
+2017-06-01 01:44:23.449 [info] <0.4650.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,200},{<<"message">>,<<"Tidak ditemukan program dengan id tersebut">>},{<<"data">>,false}]
+2017-06-01 01:44:23.449 [info] <0.4650.0>@m_abs:call_api_controller:78 [ABS] status 200 false
+2017-06-01 01:44:23.449 [info] <0.4650.0>@m_rsc:update:385 [rsc] check command "createProgram"
+2017-06-01 01:44:23.449 [info] <0.4650.0>@m_abs:call_api_controller:72 key [{id,340},{name,'Pelantikan dan Seminar BSMI Brebes'}]
+2017-06-01 01:44:23.449 [info] <0.4650.0>@m_abs:call_api_controller:73 key {"id":340,"name":"Pelantikan dan Seminar BSMI Brebes"}
+2017-06-01 01:44:23.574 [info] <0.4650.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Program berhasil disimpan">>},{<<"data">>,{[{<<"id">>,340},{<<"name">>,<<"Pelantikan dan Seminar BSMI Brebes">>}]}}]
+2017-06-01 01:44:23.574 [info] <0.4650.0>@m_abs:call_api_controller:82 [ABS] status 201 "Program berhasil disimpan"
+2017-06-01 01:44:29.974 [info] bsmi <0.384.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:44:35.674 [info] bsmi <0.384.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:44:40.559 [info] bsmi <0.384.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:46:54.415 [info] <0.6739.0>@m_rsc:update:390 [donasi] update 342
+2017-06-01 01:46:54.416 [error] <0.6739.0>@controller_admin_edit:event:151 Rsc update error: error:{badmatch,{rsc_list,[]}} stacktrace: [{m_rsc,update,3,[{file,"src/models/m_rsc.erl"},{line,393}]},{controller_admin_edit,event,2,[{file,"modules/mod_admin/controllers/controller_admin_edit.erl"},{line,101}]},{z_transport,incoming_with_session,2,[{file,"src/support/z_transport.erl"},{line,250}]},{z_transport,incoming_msgs,2,[{file,"src/support/z_transport.erl"},{line,193}]},{z_transport,incoming,2,[{file,"src/support/z_transport.erl"},{line,161}]},{controller_websocket,websocket_message,3,[{file,"modules/mod_base/controllers/controller_websocket.erl"},{line,108}]},{z_websocket,websocket_handle,3,[{file,"modules/mod_base/support/z_websocket.erl"},{line,54}]},{z_ws_request_adapter,websocket_handler_callback,5,[{file,"modules/mod_base/support/z_ws_request_adapter.erl"},{line,212}]}]
+2017-06-01 01:49:25.725 [info] <0.7.0> Application lager started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.732 [info] <0.7.0> Application setup started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.732 [error] <0.128.0> Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:49:25.823 [info] <0.137.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2017-06-01 01:49:25.823 [info] <0.7.0> Application exometer_core started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.825 [info] <0.7.0> Application exometer started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.826 [info] <0.7.0> Application depcache started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.832 [info] <0.7.0> Application mimetypes started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.859 [info] <0.7.0> Application inets started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.869 [info] <0.7.0> Application asn1 started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.869 [info] <0.7.0> Application public_key started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.880 [info] <0.7.0> Application ssl started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.882 [info] <0.7.0> Application xmerl started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.882 [info] <0.7.0> Application mochiweb started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.885 [info] <0.7.0> Application sendfile started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.954 [info] <0.7.0> Application webzmachine started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.955 [info] <0.7.0> Application z_stdlib started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.955 [info] <0.7.0> Application poolboy started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.962 [info] <0.7.0> Application jobs started on node zotonic001@Kurniawan
+2017-06-01 01:49:25.973 [info] <0.7.0> Application gproc started on node zotonic001@Kurniawan
+2017-06-01 01:49:26.070 [info] <0.233.0>@emqtt_app:start:35 starting emqtt on node 'zotonic001@Kurniawan'
+2017-06-01 01:49:26.079 [info] <0.235.0>@emqtt_auth:init:55 emqtt_auth is started
+2017-06-01 01:49:26.079 [warning] <0.6.0> lager_error_logger_h dropped 2 messages in the last second that exceeded the limit of 50 messages/sec
+2017-06-01 01:49:26.080 [info] <0.236.0>@emqtt_retained:init:89 emqtt_retained is started.
+2017-06-01 01:49:26.082 [info] <0.237.0>@emqtt_router:init:121 emqtt_router is started.
+2017-06-01 01:49:26.083 [info] <0.238.0>@emqtt_registry:init:56 emqtt_registry is started.
+2017-06-01 01:49:26.084 [info] <0.239.0>@emqtt_client_monitor:init:46 emqtt_client_monitor is started.
+2017-06-01 01:49:26.087 [info] <0.233.0>@emqtt_app:start:38 emqtt broker is running now.
+2017-06-01 01:49:26.087 [info] <0.7.0> Application emqtt started on node zotonic001@Kurniawan
+2017-06-01 01:49:26.129 [info] <0.250.0> gen_smtp_server starting at zotonic001@Kurniawan
+2017-06-01 01:49:26.130 [info] <0.250.0> gen_smtp_server listening on {127,0,0,1}:2525 via tcp
+2017-06-01 01:49:26.172 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: zotonic_status (<0.259.0>)
+2017-06-01 01:49:26.176 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: bsmi (<0.268.0>)
+2017-06-01 01:49:26.176 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: sidang (<0.290.0>)
+2017-06-01 01:49:26.176 [info] <0.253.0>@z_sites_manager:handle_cast:273 Site started: volunteer (<0.312.0>)
+2017-06-01 01:49:26.189 [error] <0.340.0>@z_filewatcher_sup:which_watcher:58 FILEWATCHER: please install fswatch or inotify-tools to automatically load changed files
+2017-06-01 01:49:30.121 [info] <0.246.0>@zotonic_sup:init:164 
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:165 Zotonic started
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:166 ===============
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:167 Config files used:
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/erlang.config
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:168 - /home/andri/.zotonic/0/zotonic.config
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:169 
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:178 Web server listening on IPv4 any:8000, SSL :8443
+2017-06-01 01:49:30.122 [info] <0.246.0>@zotonic_sup:init:185 
+2017-06-01 01:49:30.124 [info] <0.246.0>@zotonic_sup:init:186 http://bsmi.dev:8000                           - running
+2017-06-01 01:49:30.124 [info] <0.246.0>@zotonic_sup:init:186 http://sidang.dev:8000                         - running
+2017-06-01 01:49:30.124 [info] <0.246.0>@zotonic_sup:init:186 http://volunteer.dev:8000                      - running
+2017-06-01 01:49:42.130 [info] bsmi <0.1249.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:49:45.310 [info] bsmi <0.1356.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,400},{<<"message">>,<<"Tidak ada donasi untuk program ini">>},{<<"data">>,0}]
+2017-06-01 01:50:50.226 [info] <0.1337.0>@m_rsc:update:390 [donasi] update 342
+2017-06-01 01:50:50.227 [info] <0.1337.0>@m_abs:call_api_controller:72 key [{id,342}]
+2017-06-01 01:50:50.227 [info] <0.1337.0>@m_abs:call_api_controller:73 key {"id":342}
+2017-06-01 01:50:50.283 [info] <0.1337.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,200},{<<"message">>,<<"Tidak ditemukan donasi dengan id tersebut">>},{<<"data">>,false}]
+2017-06-01 01:50:50.283 [info] <0.1337.0>@m_abs:call_api_controller:78 [ABS] status 200 false
+2017-06-01 01:50:50.283 [info] <0.1337.0>@m_rsc:update:396 [rsc] check command "createDonation"
+2017-06-01 01:50:50.283 [info] <0.1337.0>@m_abs:call_api_controller:72 key [{id,342},{name,'Donasi Pusat untuk Pelantikan Brebes'},{amount,7000000},{pId,340}]
+2017-06-01 01:50:50.283 [info] <0.1337.0>@m_abs:call_api_controller:73 key {"id":342,"name":"Donasi Pusat untuk Pelantikan Brebes","amount":7000000,"pId":340}
+2017-06-01 01:50:50.324 [info] <0.1337.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Donasi berhasil disimpan">>},{<<"data">>,{[{<<"id">>,342},{<<"name">>,<<"Donasi Pusat untuk Pelantikan Brebes">>},{<<"amount">>,7000000},{<<"pId">>,340}]}}]
+2017-06-01 01:50:50.324 [info] <0.1337.0>@m_abs:call_api_controller:82 [ABS] status 201 "Donasi berhasil disimpan"
+2017-06-01 01:52:12.774 [info] bsmi <0.1309.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7000000}]
+2017-06-01 01:59:11.684 [info] <0.7124.0>@m_abs:call_api_controller:72 key [{id,343}]
+2017-06-01 01:59:11.684 [info] <0.7124.0>@m_abs:call_api_controller:73 key {"id":343}
+2017-06-01 01:59:11.836 [info] <0.7124.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,400},{<<"message">>,<<"Gagal menghapus program">>},{<<"data">>,null}]
+2017-06-01 01:59:11.836 [error] <0.7124.0>@m_abs:call_api_controller:85 [ABS] status 400 <<"Gagal menghapus program">>
+2017-06-01 02:01:02.126 [info] <0.7322.0>@m_rsc:update:390 [donasi] update 344
+2017-06-01 02:01:02.126 [info] <0.7322.0>@m_abs:call_api_controller:72 key [{id,344}]
+2017-06-01 02:01:02.126 [info] <0.7322.0>@m_abs:call_api_controller:73 key {"id":344}
+2017-06-01 02:01:02.180 [info] <0.7322.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,200},{<<"message">>,<<"Tidak ditemukan donasi dengan id tersebut">>},{<<"data">>,false}]
+2017-06-01 02:01:02.181 [info] <0.7322.0>@m_abs:call_api_controller:78 [ABS] status 200 false
+2017-06-01 02:01:02.181 [info] <0.7322.0>@m_rsc:update:396 [rsc] check command "createDonation"
+2017-06-01 02:01:02.181 [info] <0.7322.0>@m_abs:call_api_controller:72 key [{id,344},{name,'Donasi Bpk. Supomo untuk Pelantikan Brebes'},{amount,750000},{pId,340}]
+2017-06-01 02:01:02.181 [info] <0.7322.0>@m_abs:call_api_controller:73 key {"id":344,"name":"Donasi Bpk. Supomo untuk Pelantikan Brebes","amount":750000,"pId":340}
+2017-06-01 02:01:02.235 [info] <0.7322.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Donasi berhasil disimpan">>},{<<"data">>,{[{<<"id">>,344},{<<"name">>,<<"Donasi Bpk. Supomo untuk Pelantikan Brebes">>},{<<"amount">>,750000},{<<"pId">>,340}]}}]
+2017-06-01 02:01:02.235 [info] <0.7322.0>@m_abs:call_api_controller:82 [ABS] status 201 "Donasi berhasil disimpan"
+2017-06-01 02:01:06.463 [info] bsmi <0.4520.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7750000}]
+2017-06-01 02:01:33.437 [info] bsmi <0.4520.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7750000}]
+2017-06-01 02:01:33.445 [info] bsmi <0.1435.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7750000}]
+2017-06-01 02:09:52.722 [info] bsmi <0.420.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7750000}]
+2017-06-01 02:11:09.396 [info] bsmi <0.420.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7750000}]
+2017-06-01 02:13:54.903 [info] <0.386.0>@m_abs:call_api_controller:72 key [{id,344}]
+2017-06-01 02:13:54.903 [info] <0.386.0>@m_abs:call_api_controller:73 key {"id":344}
+2017-06-01 02:13:54.971 [info] <0.386.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Berhasil menghapus program">>},{<<"data">>,1}]
+2017-06-01 02:13:54.971 [info] <0.386.0>@m_abs:call_api_controller:82 [ABS] status 201 "Berhasil menghapus program"
+2017-06-01 02:14:03.687 [info] bsmi <0.9113.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7000000}]
+2017-06-01 02:30:30.712 [info] bsmi <0.15031.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7000000}]
+2017-06-01 02:30:30.751 [info] bsmi <0.19315.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7000000}]
+2017-06-01 02:30:54.079 [info] <0.15032.0>@m_abs:call_api_controller:72 key [{id,340}]
+2017-06-01 02:30:54.079 [info] <0.15032.0>@m_abs:call_api_controller:73 key {"id":340}
+2017-06-01 02:30:54.137 [info] <0.15032.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,200},{<<"message">>,<<"Sudah ada program dengan id tersebut">>},{<<"data">>,true}]
+2017-06-01 02:30:54.137 [info] <0.15032.0>@m_abs:call_api_controller:78 [ABS] status 200 true
+2017-06-01 02:30:54.137 [info] <0.15032.0>@m_rsc:update:385 [rsc] check command "updateProgram"
+2017-06-01 02:30:54.137 [info] <0.15032.0>@m_abs:call_api_controller:72 key [{id,340},{name,'Pelantikan dan Seminar BSMI Brebes'}]
+2017-06-01 02:30:54.137 [info] <0.15032.0>@m_abs:call_api_controller:73 key {"id":340,"name":"Pelantikan dan Seminar BSMI Brebes"}
+2017-06-01 02:30:54.167 [info] <0.15032.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Program berhasil diperbaharui">>},{<<"data">>,{[{<<"id">>,340},{<<"name">>,<<"Pelantikan dan Seminar BSMI Brebes">>}]}}]
+2017-06-01 02:30:54.167 [info] <0.15032.0>@m_abs:call_api_controller:82 [ABS] status 201 "Program berhasil diperbaharui"
+2017-06-01 02:31:06.054 [info] bsmi <0.19315.0>@m_abs:m_find_value:51 ABS result : [{<<"status">>,200},{<<"message">>,<<"Berhasil">>},{<<"data">>,7000000}]
+2017-06-01 02:31:39.139 [info] <0.15032.0>@m_abs:call_api_controller:72 key [{id,340}]
+2017-06-01 02:31:39.139 [info] <0.15032.0>@m_abs:call_api_controller:73 key {"id":340}
+2017-06-01 02:31:39.191 [info] <0.15032.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,200},{<<"message">>,<<"Sudah ada program dengan id tersebut">>},{<<"data">>,true}]
+2017-06-01 02:31:39.191 [info] <0.15032.0>@m_abs:call_api_controller:78 [ABS] status 200 true
+2017-06-01 02:31:39.191 [info] <0.15032.0>@m_rsc:update:385 [rsc] check command "updateProgram"
+2017-06-01 02:31:39.191 [info] <0.15032.0>@m_abs:call_api_controller:72 key [{id,340},{name,'Pelantikan dan Seminar BSMI Brebes - Update'}]
+2017-06-01 02:31:39.191 [info] <0.15032.0>@m_abs:call_api_controller:73 key {"id":340,"name":"Pelantikan dan Seminar BSMI Brebes - Update"}
+2017-06-01 02:31:39.246 [info] <0.15032.0>@m_abs:call_api_controller:75 [ABS] result [{<<"status">>,201},{<<"message">>,<<"Program berhasil diperbaharui">>},{<<"data">>,{[{<<"id">>,340},{<<"name">>,<<"Pelantikan dan Seminar BSMI Brebes - Update">>}]}}]
+2017-06-01 02:31:39.246 [info] <0.15032.0>@m_abs:call_api_controller:82 [ABS] status 201 "Program berhasil diperbaharui"
