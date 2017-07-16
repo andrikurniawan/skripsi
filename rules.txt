@@ -1,3 +1,11 @@
 {
-	"total": ["http://localhost:8888/total",2]
+	"createProgram": ["http://54.169.128.6:8080/abs/program/create", 2],
+	"createDonation": ["http://54.169.128.6:8080/abs/donation/create", 4],
+	"updateProgram": ["http://54.169.128.6:8080/abs/program/update", 2],
+	"updateDonation": ["http://54.169.128.6:8080/abs/donation/update", 4],
+	"deleteProgram": ["http://54.169.128.6:8080/abs/program/delete", 1],
+	"deleteDonation": ["http://54.169.128.6:8080/abs/donation/delete", 1],
+	"totalDonation" : ["http://54.169.128.6:8080/abs/program/total-donation", 1],
+	"checkExistProgram" : ["http://54.169.128.6:8080/abs/program/checkExist", 1],
+	"checkExistDonation" : ["http://54.169.128.6:8080/abs/donation/checkExist", 1]
 }

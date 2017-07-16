@@ -23,13 +23,15 @@
 -export([
 	m_find_value/3,
 	m_to_list/2,
-	m_value/2
+	m_value/2,
+	call_api_controller/2
 ]).
 
 -include_lib("zotonic.hrl").
 
 -define(RULES, "/home/andri/skripsi/zotonic/rules.txt").
 
+% this method to handle call api from template
 -spec m_find_value(Key, Source, Context) -> #m{} | undefined | any() when
     Key:: integer() | atom() | string(),
     Source:: #m{},
@@ -46,7 +48,8 @@ m_find_value({query, Query}, #m{value=Q} = _, _Context) when is_list(Q) ->
 			[{error, "Num of Params not same"}];
 		true ->
 			{DecodeJson} = fetch_data(binary_to_list(Url), jiffy:encode({Query})),
-			proplists:get_value(atom_to_binary(Key, latin1), DecodeJson)
+			lager:info("ABS result : ~p", [DecodeJson]),
+			proplists:get_value(<<"data">>, DecodeJson)
 	end;
 
 % Other values won't be processed
@@ -58,6 +61,32 @@ m_to_list(_, _Context) ->
 
 m_value(_, _Context) ->
 	undefined.
+
+% this method to handle call api from another module
+call_api_controller(Key, Data) ->
+	[Url, Param] = lookup_rules(Key),
+	case validate_params(Param, Data) of
+		false ->
+			[{error, "Num of Params not same"}];
+		true ->
+			lager:info("key ~p", [Data]),
+			lager:info("key ~s", [jiffy:encode({Data})]),
+			{DecodeJson} = fetch_data(binary_to_list(Url), jiffy:encode({Data})),
+			lager:info("[ABS] result ~p", [DecodeJson]),
+			case proplists:get_value(<<"status">>, DecodeJson) of
+				200 ->
+					lager:info("[ABS] status 200 ~p", [proplists:get_value(<<"data">>, DecodeJson)]),
+					proplists:get_value(<<"data">>, DecodeJson);
+				201 ->
+					Message = proplists:get_value(<<"message">>, DecodeJson),
+					lager:info("[ABS] status 201 ~p", [binary_to_list(Message)]);
+				400 ->
+					Message = proplists:get_value(<<"message">>, DecodeJson),
+					lager:error("[ABS] status 400 ~p", [Message]);
+				_Other -> 
+					lager:error("[ABS] status undefined ~p", [_Other])
+			end  
+	end.
 
 -spec fetch_data(Url, Query) -> list() when
 	Url:: list(),

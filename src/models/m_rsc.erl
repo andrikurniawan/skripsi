@@ -355,7 +355,19 @@ insert(Props, Context) ->
 %% @doc Delete a resource
 -spec delete(resource(), #context{}) -> ok | {error, term()}.
 delete(Id, Context) ->
-    lager:info("[delete] trace delete ~p", [Id]),
+    case is_a(Id, program, Context) of
+        true ->
+            Json = [{id, Id}],
+            m_abs:call_api_controller(deleteProgram, Json);
+        false ->
+            case is_a(Id, donation, Context) of
+                true ->
+                    Json = [{id, Id}],
+                    m_abs:call_api_controller(deleteDonation, Json);
+                false ->
+                    lager:info("[rsc] delete other category")
+            end
+    end,
     m_rsc_update:delete(Id, Context).
 
 %% @doc Merge a resource with another, delete the loser.
@@ -368,13 +380,23 @@ merge_delete(WinnerId, LoserId, Context) ->
 update(Id, Props, Context) ->
     case is_a(Id, program, Context) of
         true ->
-            lager:info("[update1] trace insert program ~p", [Props]);
+            Json = [{id, Id}, {name, binary_to_atom(english_title(Id, Context), latin1)}],
+            Command = check_update_or_insert(Id, "Program") ++ "Program",
+            lager:info("[rsc] check command ~p", [Command]),
+            m_abs:call_api_controller(list_to_atom(Command), Json);
         false ->
             case is_a(Id, donation, Context) of
                 true ->
-                    lager:info("[update1] trace insert donation ~p", [Props, o(Id,316,Context)]);
+                    lager:info("[donasi] update ~p", [Id]),
+                    Name = binary_to_atom(english_title(Id,Context), latin1),
+                    Amount = list_to_integer(proplists:get_value("amount", Props)),
+                    {_, [Pid]} = o(Id, 316, Context),
+                    Json = [{id, Id}, {name, Name}, {amount, Amount}, {pId, Pid}],
+                    Command = check_update_or_insert(Id, "Donation") ++ "Donation",
+                    lager:info("[rsc] check command ~p", [Command]),
+                    m_abs:call_api_controller(list_to_atom(Command), Json);
                 false->
-                    lager:info("[update1] trace insert other ~p", [Props])
+                    lager:info("[update1] trace insert other ~p", [Context])
             end
     end,
     m_rsc_update:update(Id, Props, Context).
@@ -887,6 +909,17 @@ ensure_name_unique(BaseName, N, Context) ->
         undefined -> Name;
         _Id -> ensure_name_unique(BaseName, N+1, Context)
     end.
+
+check_update_or_insert(Id, Type) ->
+    Json = [{id, Id}],
+    Command = list_to_atom("checkExist" ++ Type),
+    case m_abs:call_api_controller(Command, Json) of
+        true ->
+            "update";
+        false ->
+            "create"
+    end.
+
 
 postfix(0) -> <<>>;
 postfix(N) -> integer_to_list(N).
