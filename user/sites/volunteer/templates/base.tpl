@@ -52,12 +52,12 @@
 						{% endblock %}
 					</div>
 
-					<div id="sidebar" class="col-lg-4 col-md-4">
+					<!-- <div id="sidebar" class="col-lg-4 col-md-4">
 						{% block sidebar %}
 							{% include "_sidebar.tpl" %}
 						{% endblock %}
 					</div>
-
+ -->
 				{% endblock %}
 
 			</div>

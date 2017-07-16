@@ -1,109 +1,260 @@
-2017-04-17 09:38:04 =ERROR REPORT====
+2017-04-18 00:01:56 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:21:02 =ERROR REPORT====
+2017-04-18 00:02:38 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:21:09 =ERROR REPORT====
-webmachine_mochiweb:119 stop_request 500 (reason {function_clause,[{string,substr2,[[],4],[{file,"string.erl"},{line,213}]},{string,substr,3,[{file,"string.erl"},{line,208}]},{http_uri,split_uri,5,[{file,"http_uri.erl"},{line,202}]},{http_uri,parse_scheme,2,[{file,"http_uri.erl"},{line,137}]},{http_uri,parse,2,[{file,"http_uri.erl"},{line,89}]},{httpc,request,5,[{file,"httpc.erl"},{line,190}]},{m_abs,post_page_body,2,[{file,"src/models/m_abs.erl"},{line,56}]},{m_abs,fetch_data,2,[{file,"src/models/m_abs.erl"},{line,48}]}]})2017-04-17 10:22:08 =ERROR REPORT====
+2017-04-18 00:03:52 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:22:18 =ERROR REPORT====
-webmachine_mochiweb:119 stop_request 500 (reason {badarg,[{erlang,atom_to_list,[[<<"http://localhost:8888/total">>,3]],[]},{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,27}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]}]})2017-04-17 10:30:00 =ERROR REPORT====
+2017-04-18 00:13:41 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:32:46 =ERROR REPORT====
+2017-04-18 00:13:47 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {function_clause,[{filter_stringify,stringify_1,[{error,"Num of Params not same"},{context,volunteer,{wm_reqdata,#Port<0.22876>,{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|volunteer]],[[controller_module|controller_page]],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",undefined,{wm_log_data,144935094,undefined,{1492,449227,135620},'GET',{10,{"host",{'Host',"volunteer.dev:8000"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.5"},{"accept-encoding",{'Accept-Encoding',"gzip, deflate"},nil,nil},{"cookie",{'Cookie',"z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"no-cache"},nil,nil},nil},nil}}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"},{"upgrade-insecure-requests",{"Upgrade-Insecure-Requests","1"},{"pragma",{'Pragma',"no-cache"},nil,nil},nil},nil}}},"127.0.0.1","/en/page/340/test-donasi1",{1,1},404,0,undefined,undefined,undefined},'GET',http,{1,1},"/en/page/340/test-donasi1","/en/page/340/test-donasi1","/en/page/340/test-donasi1",{dict,6,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[[zotonic_host|volunteer],[id,51,52,48]],[[z_language,101,110]],[],[[slug,116,101,115,116,45,100,111,110,97,115,105,49]],[[zotonic_dispatch|page],[zotonic_dispatch_path,"page","340","test-donasi1"]],[],[],[],[],[],[],[]}}},["page","340","test-donasi1"],".",500,1073741824,[{"z_ua","c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768"},{"z_sid","PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"}],[],[{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},{"accept-encoding","gzip, deflate"},{"accept-language","en-US,en;q=0.5"},{"cache-control","no-cache"},{"connection","keep-alive"},{"cookie","z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"},{"host","volunteer.dev:8000"},{"pragma","no-cache"},{"upgrade-insecure-requests","1"},{"user-agent","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"}],not_fetched_yet,false,{4,{"cache-control",{"Cache-Control","no-store, no-cache, must-revalidate, post-check=0, pre-check=0"},nil,{"expires",{"Expires","Wed, 10 Dec 2008 08:30:00 GMT"},{"content-type",{"Content-Type","text/html; charset=utf-8"},nil,nil},{"p3p",{"P3P","CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""},nil,nil}}}},"identity",undefined,"text/html","utf-8",<<>>,true,[],none,[{last_modified,undefined},{generate_etag,undefined},{content_encodings_provided,["identity"]},{charsets_provided,[{"utf-8",#Fun<controller_page.0.16661782>}]},{content_types_provided,[{"text/html",to_html}]}]},controller_page,<0.702.0>,<<"PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj">>,<0.715.0>,<<"ObhUq4NxfYFeUXydElRz">>,undefined,'z_depcache$volunteer','z_notifier$volunteer','z_session_manager$volunteer','z_dispatcher$volunteer','z_template$volunteer','z_scomp$volunteer','z_dropbox$volunteer','z_pivot_rsc$volunteer','z_module_indexer$volunteer',151655,undefined,{'z_db_pool$volunteer',z_db_pgsql},[en],<<"UTC">>,undefined,undefined,[],[],[],[],[],[],[],[{q,[{"id","340"},{"zotonic_host","volunteer"},{"z_language","en"},{"slug","test-donasi1"},{"zotonic_dispatch_path",["page","340","test-donasi1"]},{"zotonic_dispatch","page"}]},{template,{cat,"page.tpl"}},{zotonic_dispatch,page}]}],[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,36}]},{filter_stringify,'-stringify_1/2-lc$^0/1-0-',2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,51}]},{filter_stringify,stringify,2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,31}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]}]})2017-04-18 00:13:49 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {function_clause,[{filter_stringify,stringify_1,[{error,"Num of Params not same"},{context,volunteer,{wm_reqdata,#Port<0.22876>,{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|volunteer]],[[controller_module|controller_page]],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",undefined,{wm_log_data,1046131288,undefined,{1492,449229,390724},'GET',{9,{"host",{'Host',"volunteer.dev:8000"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.5"},{"accept-encoding",{'Accept-Encoding',"gzip, deflate"},nil,nil},{"cookie",{'Cookie',"z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},nil,nil},nil},nil}}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"},{"upgrade-insecure-requests",{"Upgrade-Insecure-Requests","1"},nil,nil},nil}}},"127.0.0.1","/en/page/340/test-donasi1",{1,1},404,0,undefined,undefined,undefined},'GET',http,{1,1},"/en/page/340/test-donasi1","/en/page/340/test-donasi1","/en/page/340/test-donasi1",{dict,6,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[[zotonic_host|volunteer],[id,51,52,48]],[[z_language,101,110]],[],[[slug,116,101,115,116,45,100,111,110,97,115,105,49]],[[zotonic_dispatch|page],[zotonic_dispatch_path,"page","340","test-donasi1"]],[],[],[],[],[],[],[]}}},["page","340","test-donasi1"],".",500,1073741824,[{"z_ua","c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768"},{"z_sid","PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"}],[],[{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},{"accept-encoding","gzip, deflate"},{"accept-language","en-US,en;q=0.5"},{"cache-control","max-age=0"},{"connection","keep-alive"},{"cookie","z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj"},{"host","volunteer.dev:8000"},{"upgrade-insecure-requests","1"},{"user-agent","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"}],not_fetched_yet,false,{4,{"cache-control",{"Cache-Control","no-store, no-cache, must-revalidate, post-check=0, pre-check=0"},nil,{"expires",{"Expires","Wed, 10 Dec 2008 08:30:00 GMT"},{"content-type",{"Content-Type","text/html; charset=utf-8"},nil,nil},{"p3p",{"P3P","CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""},nil,nil}}}},"identity",undefined,"text/html","utf-8",<<>>,true,[],none,[{last_modified,undefined},{generate_etag,undefined},{content_encodings_provided,["identity"]},{charsets_provided,[{"utf-8",#Fun<controller_page.0.16661782>}]},{content_types_provided,[{"text/html",to_html}]}]},controller_page,<0.702.0>,<<"PRiHbrAaJveVZsgzo8iQGHfZMDr8f5Oj">>,<0.735.0>,<<"g97Kk1Os600Kk0ccq6Q3">>,undefined,'z_depcache$volunteer','z_notifier$volunteer','z_session_manager$volunteer','z_dispatcher$volunteer','z_template$volunteer','z_scomp$volunteer','z_dropbox$volunteer','z_pivot_rsc$volunteer','z_module_indexer$volunteer',151655,undefined,{'z_db_pool$volunteer',z_db_pgsql},[en],<<"UTC">>,undefined,undefined,[],[],[],[],[],[],[],[{q,[{"id","340"},{"zotonic_host","volunteer"},{"z_language","en"},{"slug","test-donasi1"},{"zotonic_dispatch_path",["page","340","test-donasi1"]},{"zotonic_dispatch","page"}]},{template,{cat,"page.tpl"}},{zotonic_dispatch,page}]}],[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,36}]},{filter_stringify,'-stringify_1/2-lc$^0/1-0-',2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,51}]},{filter_stringify,stringify,2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,31}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]}]})2017-05-08 09:24:17 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:34:51 =ERROR REPORT====
+2017-05-08 12:50:51 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:35:06 =ERROR REPORT====
-webmachine_mochiweb:119 stop_request 500 (reason {badarg,[{erlang,atom_to_binary,[<<"http://localhost:8888/total">>,latin1],[]},{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,27}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]}]})2017-04-17 10:36:05 =ERROR REPORT====
+2017-05-11 23:24:01 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:40:25 =ERROR REPORT====
+2017-05-11 23:27:00 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:42:29 =ERROR REPORT====
+2017-05-11 23:28:59 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:45:08 =ERROR REPORT====
+2017-05-11 23:33:26 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:46:03 =ERROR REPORT====
+2017-05-12 00:02:43 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:46:14 =ERROR REPORT====
-webmachine_mochiweb:119 stop_request 500 (reason {function_clause,[{string,substr2,[<<"http://localhost:8888/total">>,1],[{file,"string.erl"},{line,213}]},{string,substr,3,[{file,"string.erl"},{line,208}]},{http_uri,split_uri,5,[{file,"http_uri.erl"},{line,201}]},{http_uri,parse_scheme,2,[{file,"http_uri.erl"},{line,137}]},{http_uri,parse,2,[{file,"http_uri.erl"},{line,89}]},{httpc,request,5,[{file,"httpc.erl"},{line,190}]},{m_abs,post_page_body,2,[{file,"src/models/m_abs.erl"},{line,57}]},{m_abs,fetch_data,2,[{file,"src/models/m_abs.erl"},{line,49}]}]})2017-04-17 10:48:02 =ERROR REPORT====
+2017-05-12 00:08:55 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:50:03 =ERROR REPORT====
+2017-05-12 00:11:04 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:50:12 =CRASH REPORT====
-  crasher:
-    initial call: mochiweb_socket_server:init/1
-    pid: <0.469.0>
-    registered_name: []
-    exception exit: {eaddrinuse,[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,344}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [zotonic_sup,<0.228.0>]
-    messages: []
-    links: [<0.241.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 376
-    stack_size: 27
-    reductions: 2630
-  neighbours:
-2017-04-17 10:50:12 =SUPERVISOR REPORT====
-     Supervisor: {local,zotonic_sup}
-     Context:    start_error
-     Reason:     eaddrinuse
-     Offender:   [{pid,undefined},{id,webmachine_mochiweb_v6},{mfargs,{webmachine_mochiweb,start,[webmachine_mochiweb_v6,[{port,8000},{ip,any6},{dispatcher,z_sites_dispatcher},{dispatch_list,[]},{backlog,500},{acceptor_pool_size,75}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
-
-2017-04-17 10:50:12 =CRASH REPORT====
-  crasher:
-    initial call: application_master:init/4
-    pid: <0.227.0>
-    registered_name: []
-    exception exit: {{{shutdown,{failed_to_start_child,webmachine_mochiweb_v6,eaddrinuse}},{zotonic_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.226.0>]
-    messages: [{'EXIT',<0.228.0>,normal}]
-    links: [<0.226.0>,<0.7.0>]
-    dictionary: []
-    trap_exit: true
-    status: running
-    heap_size: 2586
-    stack_size: 27
-    reductions: 2242
-  neighbours:
-2017-04-17 10:50:12 =ERROR REPORT====
-** Generic server <0.483.0> terminating 
-** Last message in was {'EXIT',<0.386.0>,shutdown}
-** When Server state == {state,mod_zotonic_status_vcs,zotonic_status}
-** Reason for termination == 
-** {{noproc,{gen_server,call,['z_trans_server$zotonic_status',table]}},[{gen_server,call,2,[{file,"gen_server.erl"},{line,204}]},{z_trans_server,table,1,[{file,"src/i18n/z_trans_server.erl"},{line,71}]},{z_context,set_server_names,1,[{file,"src/support/z_context.erl"},{line,243}]},{z_context,new,1,[{file,"src/support/z_context.erl"},{line,173}]},{z_module_dummy,terminate,2,[{file,"src/support/z_module_dummy.erl"},{line,103}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,643}]},{gen_server,terminate,7,[{file,"gen_server.erl"},{line,809}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-2017-04-17 10:50:12 =CRASH REPORT====
-  crasher:
-    initial call: z_module_dummy:init/1
-    pid: <0.483.0>
-    registered_name: []
-    exception exit: {{noproc,{gen_server,call,['z_trans_server$zotonic_status',table]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,814}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
-    ancestors: [<0.386.0>,'z_module_manager$zotonic_status','z_site_sup$zotonic_status','z_sites_manager$supervisor',z_sites_manager,z_sites_sup,zotonic_sup,<0.228.0>]
-    messages: []
-    links: []
-    dictionary: [{'__lager_metadata',[{site,zotonic_status},{module,mod_zotonic_status_vcs}]},{depcache_now,1492401004},{depcache_tables,{ok,'z_depcache$zotonic_status',{'m:z_depcache$zotonic_status','p:z_depcache$zotonic_status','d:z_depcache$zotonic_status'}}}]
-    trap_exit: true
-    status: running
-    heap_size: 1598
-    stack_size: 27
-    reductions: 1624
-  neighbours:
-2017-04-17 10:50:24 =ERROR REPORT====
+2017-05-12 00:32:44 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:51:34 =ERROR REPORT====
+2017-05-12 00:47:17 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 10:56:51 =ERROR REPORT====
+2017-05-12 00:58:23 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 13:01:29 =ERROR REPORT====
+2017-05-12 01:01:15 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 13:16:21 =ERROR REPORT====
+2017-05-12 01:24:47 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 13:17:18 =ERROR REPORT====
+2017-05-12 01:28:39 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 23:39:21 =ERROR REPORT====
+2017-05-12 01:28:49 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})2017-05-12 01:31:19 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 23:51:36 =ERROR REPORT====
+2017-05-12 01:31:28 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,29}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})2017-05-12 01:32:29 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}
-2017-04-17 23:51:42 =ERROR REPORT====
-webmachine_mochiweb:119 stop_request 500 (reason {function_clause,[{filter_stringify,stringify_1,[{error,"Num of Params not same"},{context,volunteer,{wm_reqdata,#Port<0.22113>,{dict,4,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[[ua_class|desktop],[ua_props,{is_user_select,true},{has_pointer,true},{is_desktop,true},{is_crawler,false},{is_wireless_device,false},{is_tablet,false},{ajax_support_javascript,true},{device_os,<<"-">>},{displayWidth,1366},{displayHeight,768},{inputDevices,<<"-">>},{parentId,<<"generic-">>},{model,<<"browser">>},{vendor,<<"desktop">>},{id,<<"desktopDevice">>}]],[[zotonic_host|volunteer]],[[controller_module|controller_page]],[],[],[],[],[],[],[],[],[],[]}}},undefined,"127.0.0.1",undefined,{wm_log_data,28362737,undefined,{1492,447902,367886},'GET',{9,{"host",{'Host',"volunteer.dev:8000"},{"accept",{'Accept',"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},nil,{"accept-language",{'Accept-Language',"en-US,en;q=0.5"},{"accept-encoding",{'Accept-Encoding',"gzip, deflate"},nil,nil},{"cookie",{'Cookie',"z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=p9hUbESYtqlaoclHYnY8PQXErwTIWlX8"},{"connection",{'Connection',"keep-alive"},{"cache-control",{'Cache-Control',"max-age=0"},nil,nil},nil},nil}}},{"user-agent",{'User-Agent',"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"},{"upgrade-insecure-requests",{"Upgrade-Insecure-Requests","1"},nil,nil},nil}}},"127.0.0.1","/en/page/340/test-donasi1",{1,1},404,0,undefined,undefined,undefined},'GET',http,{1,1},"/en/page/340/test-donasi1","/en/page/340/test-donasi1","/en/page/340/test-donasi1",{dict,6,16,16,8,80,48,{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},{{[],[],[],[],[[zotonic_host|volunteer],[id,51,52,48]],[[z_language,101,110]],[],[[slug,116,101,115,116,45,100,111,110,97,115,105,49]],[[zotonic_dispatch|page],[zotonic_dispatch_path,"page","340","test-donasi1"]],[],[],[],[],[],[],[]}}},["page","340","test-donasi1"],".",500,1073741824,[{"z_ua","c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768"},{"z_sid","p9hUbESYtqlaoclHYnY8PQXErwTIWlX8"}],[],[{"accept","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"},{"accept-encoding","gzip, deflate"},{"accept-language","en-US,en;q=0.5"},{"cache-control","max-age=0"},{"connection","keep-alive"},{"cookie","z_ua=c%3Ddesktop%26u%3D1%26t%3D1%26w%3D1366%26h%3D768; z_sid=p9hUbESYtqlaoclHYnY8PQXErwTIWlX8"},{"host","volunteer.dev:8000"},{"upgrade-insecure-requests","1"},{"user-agent","Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"}],not_fetched_yet,false,{5,{"set-cookie",{"Set-Cookie","z_sid=SNoKFntVpqNgLfWBmAoYhcwdrQ4Yvs9p; Version=1; Path=/; HttpOnly"},{"cache-control",{"Cache-Control","no-store, no-cache, must-revalidate, post-check=0, pre-check=0"},nil,{"expires",{"Expires","Wed, 10 Dec 2008 08:30:00 GMT"},{"content-type",{"Content-Type","text/html; charset=utf-8"},nil,nil},{"p3p",{"P3P","CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\""},nil,nil}}},nil}},"identity",undefined,"text/html","utf-8",<<>>,true,[],none,[{last_modified,undefined},{generate_etag,undefined},{content_encodings_provided,["identity"]},{charsets_provided,[{"utf-8",#Fun<controller_page.0.16661782>}]},{content_types_provided,[{"text/html",to_html}]}]},controller_page,<0.710.0>,<<"SNoKFntVpqNgLfWBmAoYhcwdrQ4Yvs9p">>,<0.712.0>,<<"M0EqKYuzppqUPgXyoobN">>,undefined,'z_depcache$volunteer','z_notifier$volunteer','z_session_manager$volunteer','z_dispatcher$volunteer','z_template$volunteer','z_scomp$volunteer','z_dropbox$volunteer','z_pivot_rsc$volunteer','z_module_indexer$volunteer',151655,undefined,{'z_db_pool$volunteer',z_db_pgsql},[en],<<"UTC">>,undefined,undefined,[],[],[],[],[],[],[],[{set_session_id,true},{q,[{"id","340"},{"zotonic_host","volunteer"},{"z_language","en"},{"slug","test-donasi1"},{"zotonic_dispatch_path",["page","340","test-donasi1"]},{"zotonic_dispatch","page"}]},{template,{cat,"page.tpl"}},{zotonic_dispatch,page}]}],[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,36}]},{filter_stringify,'-stringify_1/2-lc$^0/1-0-',2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,51}]},{filter_stringify,stringify,2,[{file,"modules/mod_base/filters/filter_stringify.erl"},{line,31}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]}]})2017-04-17 23:57:34 =ERROR REPORT====
+2017-05-12 01:34:11 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:35:00 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:35:50 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 01:43:26 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:02:48 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:06:01 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:07:48 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:18:32 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:18:51 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-12 02:22:21 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:33:08 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:44:11 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:45:46 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:46:58 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:49:35 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:51:23 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:55:07 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:56:01 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:57:27 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 17:58:52 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 18:02:48 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 18:04:25 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 18:05:58 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 18:07:32 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 18:12:55 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 21:49:04 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 21:50:56 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 22:20:11 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 22:22:04 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 22:22:17 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,50}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})2017-05-14 22:29:28 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 22:37:16 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:12:35 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:13:56 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:17:24 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:19:23 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:26:34 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-14 23:28:03 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 00:25:20 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 00:32:39 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 00:45:26 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 00:50:32 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:01:40 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:02:57 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:04:19 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:07:50 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:09:54 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:13:44 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:19:13 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:20:36 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:23:03 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:27:25 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:30:48 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:37:48 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:40:15 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:41:49 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 01:50:40 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:01:16 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:02:27 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:04:43 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:06:31 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:07:42 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:12:17 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:16:00 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:19:24 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:20:38 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:30:16 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:32:06 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:33:50 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 02:41:49 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 09:03:21 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 10:48:57 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 10:58:51 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 11:15:00 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 11:43:23 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 11:59:45 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 12:35:38 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 12:38:40 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 12:42:20 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 12:52:41 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 12:56:56 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 13:07:28 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 13:11:41 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 13:12:54 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-15 13:15:07 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-16 00:31:00 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 02:49:51 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 02:50:14 =ERROR REPORT====
+webmachine_mochiweb:119 stop_request 500 (reason {{badmatch,[{error,{error,{failed_connect,[{to_address,{"localhost",8888}},{inet,[inet],econnrefused}]}}}]},[{m_abs,m_find_value,3,[{file,"src/models/m_abs.erl"},{line,50}]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render2,2,[]},{template_volunteer__desktop_home_andri_skripsi_zotonic_user_sites_volunteer_templates_page_tpl,render,2,[]},{z_template,render1,5,[{file,"src/support/z_template.erl"},{line,115}]},{controller_page,html,1,[{file,"modules/mod_base/controllers/controller_page.erl"},{line,91}]},{controller_page,to_html,2,[{file,"include/controller_html_helper.hrl"},{line,48}]},{webmachine_controller,controller_call,3,[{file,"src/webmachine_controller.erl"},{line,206}]},{webmachine_decision_core,decision,3,[{file,"src/webmachine_decision_core.erl"},{line,578}]}]})2017-05-30 02:58:25 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 02:59:59 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:14:06 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:14:50 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:26:25 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:27:00 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 03:32:54 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:12:07 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:17:13 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:23:53 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:26:42 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:38:41 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:44:16 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:45:13 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:46:05 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-05-30 04:50:49 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 00:25:54 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:33:44 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:35:25 =ERROR REPORT====
+Unable to read boot script (start_sasl.script): {error,enoent}
+2017-06-01 01:49:25 =ERROR REPORT====
 Unable to read boot script (start_sasl.script): {error,enoent}

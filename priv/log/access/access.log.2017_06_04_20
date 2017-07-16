@@ -1,0 +1,6 @@
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/admin/overview" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 541960185
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/page/353/bsmi-peduli-banjir-panimbang-banten" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 172885636
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/page/348/donasi-bpk-anto-untuk-bsmr-nurul-fikri" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 691375641
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/page/355/donasi-bpk-anto-untuk-banjir-panimbang" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 869709760
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/page/356/donasi-pusat-untuk-banjir-panimbang" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 457804445
+127.0.0.1 - - [05/Jun/2017:03:09:01 +0700] "POST /beacon HTTP/1.1" 204 0 "http://bsmi.dev:8000/en/page/347/donasi-pusat-untuk-bsmr-nurul-fikri" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0" 32699154
